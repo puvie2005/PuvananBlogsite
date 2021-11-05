@@ -6,7 +6,7 @@ layout: default
 
 ## Who Am I?
 
-![](docs/images/photo2.jpg){: width="50%"}
+![](docs/images/photo2.jpg){: width="30%"}
 
 *image_caption*
 
