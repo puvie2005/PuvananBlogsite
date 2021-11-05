@@ -6,7 +6,7 @@ layout: default
 
 ## Who Am I?
 
-![](docs/images/avatar-photo.jpg)
+![](docs/images/photo2.jpg)
 
 *image_caption*
 
