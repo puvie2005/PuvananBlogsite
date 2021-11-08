@@ -19,3 +19,4 @@ Here you can find out more about myself and my project. In this website, I'm goi
 In this semester of AY2021/2022, for EP1000, I will be learning how to document my project through the means of website such as HTML and CSS. Furthermore, I will also be equipped with hands-on knowledge such as 3D printing and Laser cutting of wood and other materials.
 
 Please head onto the navigation bar to learn more about my EP1000 journey. I will update the website after each class to document my journey!
+![](docs/images/safety.png){: width="100%"}
