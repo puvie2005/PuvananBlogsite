@@ -8,19 +8,19 @@ layout: default
 
 ![](docs/images/photo2.jpg){: width="30%"}
 ## More about me...
-- ### Name : A Puvanan
-- ### Course: Dip in Mechatronics & Robotics
-- ### School: Mechanical and Aeronautical Engineering
-- ### Year : 2
-- ### Email : apuvanan.20@ichat.sp.edu.sg
-- ### Tele : @puviee
+-  Name : A Puvanan
+-  Course: Dip in Mechatronics & Robotics
+-  School: Mechanical and Aeronautical Engineering
+-  Year : 2
+-  Email : apuvanan.20@ichat.sp.edu.sg
+-  Tele : @puviee
 
 
 ## What intrigues me?
-- ### Messing around with electronics
-- ### Working out
-- ### Playing darts
-- ### Playing fifa
+-  Messing around with electronics
+-  Working out
+-  Playing darts
+-  Playing fifa
 
 
 ## Why did I take this DigFab elective?
