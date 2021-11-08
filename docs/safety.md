@@ -3,6 +3,11 @@ layout: default
 ---
 
 # Fablab Safety
+## Introduction
+![](docs/images/fablab.png){: width="40%"}
+-  A compulsory Safety quiz had to be passed prior to EP1000 lessons and projects.
+
+
 ##Safety Quiz
 ![](docs/images/fablab.png){: width="40%"}
 -  A compulsory Safety quiz had to be passed prior to EP1000 lessons and projects.
