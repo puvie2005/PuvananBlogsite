@@ -6,7 +6,7 @@ layout: default
 
 ## Hello Everyone!!
 
-![](docs/images/week01/assignment-photo.jpg){: width="100%"}
+![](docs/images/week01/assignment-photo.jpg){: width="50%"}
 
 ## Welcome to my EP1000 DigFab Website :)
 
