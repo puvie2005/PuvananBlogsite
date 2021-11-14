@@ -10,7 +10,7 @@ I was taught how to create websites using **HTML/CSS** or **Markdown**. However,
 I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choosing Markdown over HTML/CSS below.
 
 
-|                      Why Markdown?                    |Why not HTML/CS|
+|                      Why Markdown?                    |                 Why not HTML/CS                       |
 | ----------------------------------------------------- |:-----------------------------------------------------:|
 | Design and layout is very clean and simple            | Editing mistakes is not as easy as markdown           |
 | Easy to read and type out website is simplified       | Markdown template looks more professional than CSS    |
