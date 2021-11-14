@@ -22,3 +22,19 @@ I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choo
 >> Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
 
 ## How did I create my HTML/CSS website?
+
+### Template for pages HTML
+
+Following picture was roughly the template used to create the HTML layout. It includes header, title, navigation and other features.
+This template can be used for other pages like mine. I have used this to create my about page and projects page.
+![](docs/images/layout.png){: width="50%"}
+
+### Navigation bar
+The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
+The links that guide to the appropriate sites are enabled via <a href> function.
+![](docs/images/nav.png){: width="50%"}
+
+### CSS formatting
+A style.css file had to be created to provide the html site with a layout. This template is referenced from [Jake Wright](https://www.youtube.com/watch?v=0afZj1G0BIE/).
+The page is broken up into different portions. Each portion has are divided and given spaces using padding and margin aligning.
+![](docs/images/css.png){: width="50%"}
