@@ -31,7 +31,7 @@ This template can be used for other pages like mine. I have used this to create 
 
 ### Navigation bar
 The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
-The links that guide to the appropriate sites are enabled via ( <a href> ) function.
+The links that guide to the appropriate sites are enabled via a h-ref function.
 ![](docs/images/nav.png){: width="50%"}
 
 ### CSS formatting
