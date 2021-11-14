@@ -16,7 +16,9 @@ I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choo
 | Easy to read and type out website is simplified       | Markdown template looks more professional than CSS    |
 | Saves alot of time as it converts to HTML quickly     | Prefer the flow and writing of markdown than HTML     |
 
-* However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
-* Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
+
+> However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
+>
+>> Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
 
 ## How did I create my HTML/CSS website?
