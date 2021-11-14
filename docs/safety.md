@@ -13,4 +13,8 @@ A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab
 -  Minimum of 90/100 had to be scored within 5 tries to pass the quiz.
 -  However, some troubles were faced whereby the quiz glitched and maxed out the 5 tries. It was resolved by Mr Rodney who reset the 5 tries.
 
-![](docs/images/week01/assignment-photo.jpg){: width="50%"}
+## 3D printing
+-  These are the safety tips and knowledge required to use the 3D printer.
+
+## Laser Cutting
+-  These are the safety tips and knowledge required prior to laser cutting in the Fablab.
