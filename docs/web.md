@@ -13,8 +13,8 @@ I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choo
 |                      Why Markdown?                    |                 Why not HTML/CS                       |
 | ----------------------------------------------------- |:-----------------------------------------------------:|
 | Design and layout is very clean and simple            | Editing mistakes is not as easy as markdown           |
-| Easy to read and type out website is simplified       |     Markdown template looks more professional than CSS    |
-| Saves alot of time as it converts to HTML quickly     |    Prefer the flow and writing of markdown than HTML     |
+| Easy to read and type out website is simplified       | Markdown template looks more professional than CSS    |
+| Saves alot of time as it converts to HTML quickly     | Prefer the flow and writing of markdown than HTML     |
 
 
 > However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
