@@ -2,8 +2,6 @@
 layout: default
 ---
 
-![](docs/images/week01/assignment-photo.jpg){: width="50%"}
-
 # Web Development
 
 I was taught how to create websites using **HTML/CSS** or **Markdown**. However, I chose to use markdown using Mr Steven's template from Github.
@@ -33,7 +31,7 @@ This template can be used for other pages like mine. I have used this to create 
 
 ### Navigation bar
 The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
-The links that guide to the appropriate sites are enabled via <a href> function.
+The links that guide to the appropriate sites are enabled via ( <a href> ) function.
 ![](docs/images/nav.png){: width="50%"}
 
 ### CSS formatting
