@@ -27,7 +27,7 @@ I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choo
 
 Following picture was roughly the template used to create the HTML layout. It includes header, title, navigation and other features.
 This template can be used for other pages like mine. I have used this to create my about page and projects page.
-![](docs/images/layout.png){: width="50%"}
+![](docs/images/layout.png){: width="10%"}
 
 ### Navigation bar
 The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
