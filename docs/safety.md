@@ -9,9 +9,20 @@ layout: default
 ## Safety Quiz
 A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab sessions. It can be accessed via Blackboard. My Community> Fablab> Fablab quiz
 
-## Passing requirements
+### Passing requirements
 -  Minimum of 90/100 had to be scored within 5 tries to pass the quiz.
 -  However, some troubles were faced whereby the quiz glitched and maxed out the 5 tries. It was resolved by Mr Rodney who reset the 5 tries.
+
+## Important things to take note of..
+
+*  General guidelines for attire. These guidelines are important as they ensure the safety and well being of the students around machinery.
+![](docs/images/attire.jpg){: width="50%"}
+
+*  Various safety warnings and hazards we should know and adhere to in the FabLab.
+![](docs/images/safe.jpg){: width="50%"}
+
+*  Lastly, this are the placard showign warning risks on the machinery. Please take note of it prior to using the machine. After using the machine, please place the placard back on the machine.
+![](docs/images/placard.png){: width="50%"}
 
 ## 3D printing
 -  These are the safety tips and knowledge required to use the 3D printer.
