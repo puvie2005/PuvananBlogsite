@@ -6,8 +6,18 @@ layout: default
 
 ## Introduction to safety
 
+## Relevant information
+In case of any emergency, please seek help via the following numbers
+* For Ambulance call 995
+* For SCDF call 995
+* For Police call 999
+* For all emergencies and incident reporting call
+* SP Emergency hotline 6772-1234
+
 ## Safety Quiz
 A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab sessions. It can be accessed via Blackboard. My Community> Fablab> Fablab quiz
+
+![](image/safety.png){: width="40%"}
 
 ### Passing requirements
 -  Minimum of 90/100 had to be scored within 5 tries to pass the quiz.
@@ -17,11 +27,11 @@ A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab
 
 General guidelines for attire. These guidelines are important as they ensure the safety and well being of the students around machinery.
 
-![](images/attire.jpg){: width="20%"}
+![](images/attire.jpg){: width="30%"}
 
 Various safety warnings and hazards we should know and adhere to in the FabLab.
 
-![](images/safe.jpg){: width="30%"}
+![](images/safe.jpg){: width="40%"}
 
 Lastly, this is the placard showing warning risks on the machinery. Please take note of it prior to using the machine. After using the machine, please place the placard back on the machine.
 
