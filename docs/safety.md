@@ -16,12 +16,15 @@ A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab
 ## Important things to take note of..
 
 General guidelines for attire. These guidelines are important as they ensure the safety and well being of the students around machinery.
+
 ![](images/attire.jpg){: width="20%"}
 
 Various safety warnings and hazards we should know and adhere to in the FabLab.
+
 ![](images/safe.jpg){: width="30%"}
 
 Lastly, this is the placard showing warning risks on the machinery. Please take note of it prior to using the machine. After using the machine, please place the placard back on the machine.
+
 ![](images/placard.png){: width="40%"}
 
 ## 3D printing
