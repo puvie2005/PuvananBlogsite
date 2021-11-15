@@ -47,7 +47,7 @@ In case of any emergency, please seek help via the following numbers
 ### Common hazards
 Some of the few mechanical and non-mechanical hazrads...
 
-* ![](images/electrical.jpg){: width="30%"}![](images/noise.jpg){: width="30%"}![](images/entangle.jpg){: width="30%"}
+![](images/electrical.jpg){: width="30%"}![](images/noise.jpg){: width="25%"}![](images/entangle.jpg){: width="40%"}
 
 ## 3D printing
 -  These are the safety tips and knowledge required to use the 3D printer.
