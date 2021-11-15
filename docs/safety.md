@@ -17,7 +17,7 @@ In case of any emergency, please seek help via the following numbers
 ## Safety Quiz
 * **A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab sessions. It can be accessed via Blackboard. My Community> Fablab> Fablab quiz**
 
-![](image/safety.png){: width="40%"}
+![](images/safety.png){: width="40%"}
 
 ### Passing requirements
 -  Minimum of 90/100 had to be scored within 5 tries to pass the quiz.
@@ -47,7 +47,7 @@ In case of any emergency, please seek help via the following numbers
 ### Common hazards
 Some of the few mechanical and non-mechanical hazrads...
 
-* ![](image/electrical.jpg){: width="30%"}![](image/noise.jpg){: width="30%"}![](image/entangle.jpg){: width="30%"}
+* ![](images/electrical.jpg){: width="30%"}![](images/noise.jpg){: width="30%"}![](images/entangle.jpg){: width="30%"}
 
 ## 3D printing
 -  These are the safety tips and knowledge required to use the 3D printer.
