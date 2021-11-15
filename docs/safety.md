@@ -46,7 +46,7 @@ In case of any emergency, please seek help via the following numbers
 
 ### Common hazards
 Some of the few mechanical and non-mechanical hazrads...
-              **Electrical hazard                                   Noise hazard                                                             Entanglement hazard**
+
 ![](images/electrical.jpg){: width="28%"}![](images/noise.jpg){: width="25%"}![](images/entangle.jpg){: width="37%"}
 
 ## 3D printing
