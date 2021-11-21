@@ -8,7 +8,6 @@ I was taught how to create websites using **HTML/CSS** or **Markdown**. However,
 
 ## Why did I choose Markdown?
 I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choosing Markdown over HTML/CSS below.
-<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
 <style>
 table.GeneratedTable {
   width: 100%;
@@ -36,34 +35,7 @@ table.GeneratedTable thead {
 <table class="GeneratedTable">
   <thead>
     <tr>
-      <th>Header</th>
-      <th>Header</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-    <tr>
-      <td>Cell</td>
-      <td>Cell</td>
-    </tr>
-  </tbody>
-</table>
-<!-- Codes by Quackit.com -->
-<table class="GeneratedTable">
-  <thead>
-    <tr>
-      <th>Why Markdown? </th>
+      <th>Why Markdown?</th>
       <th>Why not HTML/CS</th>
     </tr>
   </thead>
@@ -82,6 +54,7 @@ table.GeneratedTable thead {
     </tr>
   </tbody>
 </table>
+
 
 *  However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
 *  Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
