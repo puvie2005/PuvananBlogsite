@@ -8,14 +8,58 @@ I was taught how to create websites using **HTML/CSS** or **Markdown**. However,
 
 ## Why did I choose Markdown?
 I used the web-pk Jekyll template( EP100 ). I will list down my reasons for choosing Markdown over HTML/CSS below.
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #0091ff;
+  border-style: solid;
+  color: #000000;
+}
 
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #0091ff;
+  border-style: solid;
+  padding: 3px;
+}
 
-|                      Why Markdown?                    |                 Why not HTML/CS                       |
-| ----------------------------------------------------- |:-----------------------------------------------------:|
-| Design and layout is very clean and simple            | Editing mistakes is not as easy as markdown           |
-| Easy to read and type out website is simplified       | Markdown template looks more professional than CSS    |
-| Saves alot of time as it converts to HTML quickly     | Prefer the flow and writing of markdown than HTML     |
+table.GeneratedTable thead {
+  background-color: #0091ff;
+}
+</style>
 
+<!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+<table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Header</th>
+      <th>Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>Cell</td>
+      <td>Cell</td>
+    </tr>
+  </tbody>
+</table>
+<!-- Codes by Quackit.com -->
 <table class="GeneratedTable">
   <thead>
     <tr>
