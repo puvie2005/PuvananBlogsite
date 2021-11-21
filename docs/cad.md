@@ -29,8 +29,6 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 10. Smudge tool should appear. Left-click on your mouse and hold it while smudging through hair to make it look smoother.
 11. Let's now add our seaside image. Go to file > Open as layer > select image. Once selected, use the move tool on your top left to align both image and background. **Toggle between layers to move them respectively**
 12. Once you have aligned them. Right click on both images and go layer > scale layer > set image width to 1024 pixels and desired height respectively. Note, you have to align them again as pixels have changed.
-![](images/raster collage 3.png){: width="60%"}
-
-13. Now all that's left is to export to png. Go to file > export as > destination folder > set file name. Under file type, locate and select png and export. (**tip: Just change .jpeg to png**)\
-
-**Anddd bammmm... you should have this legendary image** ![](images/raster step 13.png){: width="20%"}
+13. Now all that's left is to export to png. Go to file > export as > destination folder > set file name. Under file type, locate and select png and export. (**tip: Just change .jpeg to png**)
+**You should now have this legendary image**
+![](images/raster collage 3.png){: width="60%"} ![](images/raster step 13.png){: width="20%"}
