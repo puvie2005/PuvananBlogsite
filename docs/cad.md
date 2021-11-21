@@ -19,3 +19,9 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 3. In order to seperate your selfie from the background, click the third tool on the toolbox on the top left.
 4. Start clicking and tracing out the image. When it comes to the final point, select on the original point and click ENTER.
 ![](images/raster collage 1.png){: width="60%"}
+
+5. We have traced the outline of our image. However, we will still have the insides to trace out like the forearm. Below the tools section click the 3rd box. This allows you to select the insides.
+6. Now using the same principle in step 4, trace all the inside images thaat you do not want to have to create a better transparent image.
+7. We now will head onto select > invert. This allows us to select the background of the image so we can delete it later.
+8. Since we have selected the background, you should see the tracing appear on the outlines. Go on to edit > clear. This removes the background.
+![](images/raster collage 2.png){: width="50%"}
