@@ -6,7 +6,7 @@ defaults:
     values:
       layout: default
 
-title: Puvanan EP1000
+title: Puvanan
 subtitle: Digital Fab & Prototyping Fundamentals
 baseurl: "/PuvananBlogsite"  # the subpath of your site, e.g. /blog
 # theme: panthera-jekyll

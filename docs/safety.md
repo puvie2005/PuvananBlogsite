@@ -15,7 +15,7 @@ In case of any emergency, please seek help via the following numbers
 * SP Emergency hotline 6772-1234
 
 ## Safety Quiz
-* **A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab sessions. It can be accessed via Blackboard. My Community> Fablab> Fablab quiz**
+**A compulsory safety quiz had to be passed prior to our EP1000 lessons and Fablab sessions. It can be accessed via Blackboard. My Community> Fablab> Fablab quiz**
 
 ![](images/safety.png){: width="40%"}
 
