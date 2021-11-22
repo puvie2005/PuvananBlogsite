@@ -40,13 +40,12 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 3. Find a online vector image of knight piece
 4. Go to insert > canvas > include your image.
 5. Position your image and resize it to the midpoint
-
 6. Create new sketch, choose y plane and sketch out the base to revolve.
 7. Head onto to revolve function > select axis > revolve 360
-![](images/knight collage.png){: width="70%"}
+![](images/knight collage.png){: width="50%"}
 
 8. Create new sketch > spline line > sketch out knight head > extrude 5mm
-9. Select shell function > shell base 
-![](images/knight step 3.png){: width="60%"}
+9. Select shell function > shell base
+![](images/knight step 3.png){: width="40%"}
 
 **Now we are all ready to export this as .stl file and slice it for 3d printing.**
