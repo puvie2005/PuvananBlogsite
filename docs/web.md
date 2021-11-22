@@ -30,7 +30,6 @@ table.GeneratedTable thead {
   background-color: #0091ff;
 }
 </style>
-
 <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
 <table class="GeneratedTable">
   <thead>
