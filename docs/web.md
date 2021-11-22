@@ -53,11 +53,10 @@ table.GeneratedTable thead {
     </tr>
   </tbody>
 </table>
-
-
-*  However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
-*  Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
-
+```
+However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
+Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
+```
 ## How did I create my HTML/CSS website?
 
 ### Template for pages HTML
