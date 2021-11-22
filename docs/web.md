@@ -56,7 +56,7 @@ table.GeneratedTable thead {
 
 
 *  However, I completed the HTML/CSS tasks and created my very own website. Do check it out at the link below!
-*  Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/test/).
+*  Link to my [HTML/CSS Puvanan website](https://puvie2005.github.io/Puvanan-html/index.html).
 
 ## How did I create my HTML/CSS website?
 
