@@ -4,9 +4,7 @@ layout: default
 
 # Computer Aided Design
 
-## Assignment
-
-### Raster
+## Raster
 One of the assignments for EP1000 is to learn and use raster graphics using a software called [GIMP](https://www.gimp.org/). We were tasked to remove the background of our selfie image and replace it with a seaside background of our choice. Most importantly, the image had to be resized to 1024 pixels wide.
 
 ### What is raster?
@@ -33,3 +31,22 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 ![](images/raster collage 3.png){: width="60%"}
 ### You should now have this legendary image
 ![](images/raster step 13.png){: width="20%"}
+
+
+## Knight Chess Piece 3D Modelling
+Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
+1. Chess piece with base of 30mm and height of 50mm
+2. Create a construction line box with 50mm height and 15mm base ( 15mm is used to centre the image )
+3. Find a online vector image of knight piece
+4. Go to insert > canvas > include your image.
+5. Position your image and resize it to the midpoint
+
+6. Create new sketch, choose y plane and sketch out the base to revolve.
+7. Head onto to revolve function > select axis > revolve 360
+![](images/knight collage.png){: width="70%"}
+
+8. Create new sketch > spline line > sketch out knight head > extrude 5mm
+9. Select shell function > shell base 
+![](images/knight step 3.png){: width="60%"}
+
+**Now we are all ready to export this as .stl file and slice it for 3d printing.**
