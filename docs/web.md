@@ -62,10 +62,15 @@ table.GeneratedTable thead {
 
 ### Template for pages HTML
 
-Following picture was roughly the template used to create the HTML layout. It includes header, title, navigation and other features.
+Following picture was roughly the template used to create the [HTML layout](https://www.youtube.com/watch?v=0afZj1G0BIE/). It includes header, title, navigation and other features.
 This template can be used for other pages like mine. I have used this to create my about page and projects page.
 
 ![](images/layout.png){: width="50%"}
+
+Some things to take note are..
+1. Open up a code editor like Atom or Visualstudio and type "html5". This should bring out the title>body>header layout
+2. Save the file and change address to ".html". This makes the file a html and we can view it on our browser when we click.
+3. Mess around and get a rough layout so you can copy paste to new files instead of creating from scratch( **Mr Rodney's tips** )
 
 ### Navigation bar
 The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
@@ -73,8 +78,18 @@ The links that guide to the appropriate sites are enabled via a h-ref function.
 
 ![](images/nav.png){: width="50%"}
 
+In order to create a the navigation bar you need to know few things!
+1. Use the div function to section the area for Navigation
+2. After enclosing the headers, start of by creating unordered list using <ul > designation.
+3. I used the link function(<li>) along with " a href" to enclose the link. <li>
+4. Include the right link from the folder its from or it wont show up.
+
 ### CSS formatting
 A style.css file had to be created to provide the html site with a layout. This template is referenced from [Jake Wright](https://www.youtube.com/watch?v=0afZj1G0BIE/).
 The page is broken up into different portions. Each portion has are divided and given spaces using padding and margin aligning.
 
-![](images/css.png){: width="50%"}
+![](images/css.png){: width="30%"}
+
+1. Imagine splitting your website into different sections. We want a navigation, content, container, main and lastly a footer.
+2. Work out some dimensions in either pixels or percentage on how you want it.
+3. Follow the layout to make a similiar box looking main page. **You can edit the width of page by changing container width to more than 800px.**
