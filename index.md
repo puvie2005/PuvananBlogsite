@@ -4,9 +4,9 @@ layout: default
 
 # Home
 
-## Hello Everyone!!
-
 ![](docs/images/week01/cool.jpg){: width="100%"}
+
+## Hello Everyone!!
 
 ## Welcome to my EP1000 DigFab Website :)
 
