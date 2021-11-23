@@ -51,7 +51,7 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 
 ### Extrude and shell
 ![](images/collage 1.png){: width="35%"}
-8. Create new sketch > spline line > sketch out knight head > extrude 5mm
+8. Create new sketch > spline line > sketch out knight head > extrude 5mm both sides
 9. Select shell function > shell base
 10. **Now we are all ready to export this as .stl file and slice it for 3d printing.**
 
