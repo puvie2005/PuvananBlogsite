@@ -36,7 +36,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 ## Knight Chess Piece 3D Modelling
 Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
 
-### Add the canvas onto the sketch
+### Adding Canvas and positioning it
 1. Chess piece with base of 30mm and height of 50mm
 2. Create a construction line box with 50mm height and 15mm base ( 15mm is used to centre the image )
 3. Find a online vector image of knight piece
@@ -44,10 +44,11 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 4. Go to insert > canvas > include your image.
 5. Position your image and resize it to the midpoint
 
-### Revolve & Extrude
+### Revolve
 ![](images/collage.png){: width="40%"}
 6. Create new sketch, choose y plane and sketch out the base to revolve.
 7. Head onto to revolve function > select axis > revolve 360
+### Extrude and shell
 ![](images/collage 1.png){: width="35%"}
 8. Create new sketch > spline line > sketch out knight head > extrude 5mm
 9. Select shell function > shell base
