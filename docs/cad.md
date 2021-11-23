@@ -37,7 +37,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
 
 ### Adding Canvas and positioning it
-![](images/knight step 1.png){: width="30%"}
+![](images/knight step 1.png){: width="31%"}
 1. Chess piece with base of 30mm and height of 50mm
 2. Create a construction line box with 50mm height and 15mm base ( 15mm is used to centre the image )
 3. Find a online vector image of knight piece
