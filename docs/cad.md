@@ -40,7 +40,7 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 ![](images/knight step 1.png){: width="31%"}
 1. Chess piece with base of 30mm and height of 50mm
 2. Create a construction line box with 50mm height and 15mm base ( 15mm is used to centre the image )
-3. Find a online vector image of knight piece
+3. Find a online [vector image](https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn3.vectorstock.com%2Fi%2F1000x1000%2F34%2F37%2Fwhite-chess-knight-piece-on-background-vector-35153437.jpg&imgrefurl=https%3A%2F%2Fwww.vectorstock.com%2Froyalty-free-vector%2Fwhite-chess-knight-piece-on-background-vector-35153437&tbnid=veq07LuDYJTTEM&vet=12ahUKEwiSlI2v97D0AhWFNCsKHQS0AfcQMygKegUIARDwAQ..i&docid=jiylB55YKg2efM&w=1000&h=1080&q=knight%20chess%20piece%20vector&ved=2ahUKEwiSlI2v97D0AhWFNCsKHQS0AfcQMygKegUIARDwAQ) of knight piece
 4. Go to insert > canvas > include your image.
 5. Position your image and resize it to the midpoint
 
@@ -51,8 +51,10 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 
 ### Extrude and shell
 ![](images/collage 1.png){: width="35%"}
-8. Create new sketch > spline line > sketch out knight head > extrude 5mm both sides
-9. Select shell function > shell base
+8. Create new sketch > spline line > sketch out knight head.
+9. Trace out the sketch and once done, finish sketch.
+10. Select extrude function > enter 5mm > extrude both ways( Our plane was in the centre so it extrudes both ways from centre to reach 5mm).
+9. Select shell function > click base > thickness = 1-2mm > click ok.
 10. **Now we are all ready to export this as .stl file and slice it for 3d printing.**
 
 ![](images/knight step 3.png){: width="15%"}
