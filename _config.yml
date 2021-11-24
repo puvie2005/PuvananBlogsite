@@ -62,17 +62,17 @@ menu:
 # Socialmedia Icons
 social_icons:
   - name: linkedin
-    link: "/contact.html"
+    link: "https://puvie2005.github.io/PuvananBlogsite/contact.html"
     icon: fab fa-linkedin
 
   - name: github
-    link: "/contact.html"
+    link: "PuvananBlogsite/contact.html"
     icon: fab fa-github-square
 
   - name: facebook
-    link: "/contact.html"
+    link: "/PuvananBlogsite/contact.html"
     icon: fab fa-facebook-square
 
   - name: twitter
-    link: "/contact.html"
+    link: "/PuvananBlogsite/contact.html"
     icon: fab fa-twitter
