@@ -6,7 +6,7 @@ layout: default
 How to contact me?
 
 
-    ![](docs/images/outlook.png){: width="7%"}
+![](docs/images/outlook.png){: width="7%"}
 
 
 - **Outlook: apuvanan.20@ichat.sp.edu.sg**
