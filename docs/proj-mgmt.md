@@ -11,7 +11,7 @@ Once you have done with the html, you would realise you dont really have a websi
 2. [Github website](https://github.com/).
 
 ### Sign up and repository
-![](images/repo.png){: width="60%"}
+![](images/repo.png){: width="70%"}
 * Firstly sign in or sign up for a github account.
 * Now let's create a new repository. Name it as your website or your project name!
 * Make sure it is set as public > Check Add Readme file
@@ -24,7 +24,7 @@ Once you have done with the html, you would realise you dont really have a websi
 * Now you can see the link to your repository site!
 
 ### GITHUB Desktop app
-![](images/git4.png){: width="60%"}
+![](images/git4.png){: width="30%"}
 * Install github desktop app and sign in.
 * Go to files > add new repository.
 * Give a name and description of your site/ repository.
