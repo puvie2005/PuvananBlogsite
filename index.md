@@ -4,7 +4,7 @@ layout: default
 
 # Home
 
-![](docs/images/week01/coool.jpg){: width="80%"}
+![](docs/images/week01/coool.jpg){: width="100%"}
 
 ## Hello Everyone!!
 
