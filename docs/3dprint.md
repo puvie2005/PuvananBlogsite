@@ -11,8 +11,8 @@ Here I will publish what I have learnt about 3D printing in EP1000!
 We have already modelled and exported our knight piece as a.stl file. You can use any slicer in accordance to the 3d printer you are using. For my case, in the Fablab we are using Ultimaker 2+. So i downloaded [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura). Upload your file and slice it!
 
 ### Short clip
-* Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
 ![](images/3d printing vid1.gif)
+* Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
 
 ### Slicing and printing file
 ![](images/3dcollage1.jpg){: width="60%"}
