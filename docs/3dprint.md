@@ -12,7 +12,7 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 
 ### Short clip
 Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
-![](images/3d printing vid.gif){: width="15%"}
+![](images/3d printing vid1.gif)
 
 ### Slicing and printing file
 ![](images/3dcollage1.jpg){: width="60%"}
