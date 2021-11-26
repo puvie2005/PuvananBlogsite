@@ -19,6 +19,7 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 5. Top and bottom thickness was set at 8mm too. Infill density set to 20%. Infill density refers to how much plastic is inside your print and in our case, for visual purposes, 20% is good enough.
 6. Lastly, enable support. Support everywhere. This is to prevent overhang. Overhang is when certain 3d geometries don;t have any support. Set the overhang angle to 50
 
+
 ### 3D printing process
 ![](images/3d printing vid1.gif)
 - Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
