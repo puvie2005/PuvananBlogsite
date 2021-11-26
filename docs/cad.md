@@ -55,6 +55,6 @@ Another assignment was to create a 3D model of the knight chess piece. We all kn
 9. Trace out the sketch and once done, finish sketch.
 10. Select extrude function > enter 5mm > extrude both ways( Our plane was in the centre so it extrudes both ways from centre to reach 5mm).ss
 9. Select shell function > click base > thickness = 1-2mm > click ok.
-10. **Now we are all ready to export this as .stl file and slice it for 3d printing.**
+10. **Now we are all ready to export this as .stl file and slice it for [3D Printing](https://puvie2005.github.io/PuvananBlogsite/docs/3dprint.html).**
 
 ![](images/knight step 3.png){: width="15%"}
