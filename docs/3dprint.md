@@ -10,10 +10,6 @@ Here I will publish what I have learnt about 3D printing in EP1000!
 ## Knight Chess piece
 We have already modelled and exported our knight piece as a.stl file. You can use any slicer in accordance to the 3d printer you are using. For my case, in the Fablab we are using Ultimaker 2+. So i downloaded [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura). Upload your file and slice it!
 
-### Short clip
-![](images/3d printing vid1.gif)
-* Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
-
 ### Slicing and printing file
 ![](images/3dcollage1.jpg){: width="60%"}
 1. Head onto file > open file > select your stl file
@@ -22,6 +18,10 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 4. Layer height: 0.2mm. The nozzle size at fablab is 4, so your layer height should be half of it to give a good print. Wall thickness : 8mm
 5. Top and bottom thickness was set at 8mm too. Infill density set to 20%. Infill density refers to how much plastic is inside your print and in our case, for visual purposes, 20% is good enough.
 6. Lastly, enable support. Support everywhere. This is to prevent overhang. Overhang is when certain 3d geometries don;t have any support. Set the overhang angle to 50
+
+### 3D printing process
+![](images/3d printing vid1.gif)
+- Here is a short clip of the 3d printing process. You can see how fast the ultimaker prints the knight piece!!
 
 ### After Printing
 ![](images/3dcollage2.jpg){: width="60%"}
