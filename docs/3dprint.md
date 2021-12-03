@@ -42,15 +42,15 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 3. Other tools like minus key screwdriver or tweasers can also be used to remove the tiny parts.
 
 ### Redo
-![](images/final3d2.jpg){: width="30%"}
+![](images/final3d2.jpeg){: width="30%"}
 1. Decided to redo the 3D print by learning from previous mistakes
 2. Used the appropriate pliers to remove support from FabLab
 3. Sandpaper to sand out the rough edges.
 4. Lastly, added water onto sandpaper to get smoother surface and better finish.
 
 ### Difference( v1 vs v2 )
-![](images/final3d3.jpg){: width="60%"}
+![](images/final3d3.jpeg){: width="60%"}
 
 ### Final product
 **Lastly, you should have removed the supports and have a awesome Knight Chess Piece!!**
-![](images/3dcollage2.jpg){: width="60%"}
+![](images/final3d.jpeg){: width="50%"}
