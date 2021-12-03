@@ -49,8 +49,8 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 4. Lastly, added water onto sandpaper to get smoother surface and better finish.
 
 ### Difference( v1 vs v2 )
-![](images/final3d3.jpeg){: width="60%"}
+![](images/final3d3.jpeg){: width="20%"}
 
 ### Final product
 **Lastly, you should have removed the supports and have a awesome Knight Chess Piece!!**
-![](images/final3d.jpeg){: width="50%"}
+![](images/final3d.jpeg){: width="20%"}
