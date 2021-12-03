@@ -52,5 +52,5 @@ We have already modelled and exported our knight piece as a.stl file. You can us
 ![](images/final3d3.jpeg){: width="20%"}
 
 ### Final product
-**Lastly, you should have removed the supports and have a awesome Knight Chess Piece!!**
 ![](images/final3d.jpeg){: width="20%"}
+**Lastly, you should have removed the supports and have a awesome Knight Chess Piece!!**
