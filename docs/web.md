@@ -72,6 +72,15 @@ Some things to take note are..
 2. Save the file and change address to ".html". This makes the file a html and we can view it on our browser when we click.
 3. Mess around and get a rough layout so you can copy paste to new files instead of creating from scratch( **Mr Rodney's tips** )
 
+### Things to take note of
+
+1. You should plan out your website and get your dimensions right.
+2. Use either % proportions or in terms of pixels. eg; 30%, 400 px and etc.
+3. Use align and margin functions to position texts and sections appropriately.
+4. Padding are used to provide spacing between edges of sections. I have used 10px generally in accordance to Jake Wright template.
+5. Customise the bsckground using " background-colour: " and fonts using "font-family: "
+6. Using [W3Schools](https://www.w3schools.com/html/html_intro.asp) gives you a good intro to HTML/CSS. Head on over to learn more!
+
 ### Navigation bar
 The sidebar was created using the lists function in HTML. The bar is sectioned using the <div> function.
 The links that guide to the appropriate sites are enabled via a h-ref function.

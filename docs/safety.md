@@ -11,7 +11,6 @@ In case of any emergency, please seek help via the following numbers
 * For Ambulance call 995
 * For SCDF call 995
 * For Police call 999
-* For all emergencies and incident reporting call
 * SP Emergency hotline 6772-1234
 
 ## Safety Quiz
