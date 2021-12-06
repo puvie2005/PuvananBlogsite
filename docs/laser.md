@@ -10,4 +10,4 @@ layout: default
 * We were tasked to produce a 2d keychain design, modify via CorelDraw and print it using the laser cutter.
 
 ## Music box
-* Under construction
+**Under construction**
