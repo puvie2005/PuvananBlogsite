@@ -79,7 +79,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 2. At the right of your screen you should see a grey tab. Click on your line> head onto the tab> change it to construction line. This acts as an axis to revolve later on.
 3. Go to create> arc> centre point arc> create a 50mm arc. Draw a line from both of ends to the origin. ( It is fine to overlap the construction line)
 
-![](images/revolve2.png){: width="60%"}
+![](images/revolve2.png){: width="50%"}
 1. Click finish sketch> click the revolve function on the top left. A pop-up should appear.
 2. Fusion360 recognises the construction line and selects that as axis. In future models, you can change to another axis by clicking on axis on the pop-up> select your new axis.
 3. For profile, click on your 2D model. You should see it made a circular feature from the quadrant we created.
