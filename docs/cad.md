@@ -33,7 +33,8 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 ![](images/raster step 13.png){: width="20%"}
 
 ## 3D modelling with Fusion360
-3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software. In this module, we will use Fusion360 to 3D model objects for our project and assignments.
+* 3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software.
+* In this module, we will use Fusion360 to 3D model objects for our project and assignments.
 
 ### Fusion360 Practice
 ![](images/fusion1.png){: width="30%"}
@@ -57,9 +58,32 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 5. Now we have finally finished the practice!
 
 ### Extrude Practice
-In a sense, extrusion is basically giving an 2D object volume. We can say it gets thicker.
+* In a sense, extrusion is basically giving an 2D object volume. We can say it gets thicker.
 
+![](images/extrude1.png){: width="40%"}
+1. We will extrude the practice 2D drawing from earlier on. Finish sketch and you should have 2D model.
+2. Click on the extrude function at the top left.
+3. A mini pop-up should appear.For profile, click on the 2D model excluding the circle inside. We want to make the object with a hole.
 
+![](images/extrude2.png){: width="40%"}
+1. For direction, it is automatically set one side. We want to give 10mm thickness, so set 10mm. You should see the arrow point to the right and object will have 10mm thickness.
+2. Let's play around with this direction. Change 10mm to -10mm. This makes it extrude the other way around. Arrow will point to left now.
+3. Change one side to 2 sides now. Now, from the 2D model, you can extrude a certain distance to the right and another distance to the left. I've set 10mm for both. Give it a go!
+4. Change 2 side to symmetric. Essentially, this extrudes the 2D model symmetrically on both sides with a set value. If I put 10mm, it should extrude 10mm in both right and left.
+
+### Revolve practice
+* Revolve is basically making circular objects and features using a centre line.
+
+![](images/revolve1.png){: width="40%"}
+1. Go to new sketch> select the y plane. Go to line function and draw line vertically from the origin.
+2. At the right of your screen you should see a grey tab. Click on your line> head onto the tab> change it to construction line. This acts as an axis to revolve later on.
+3. Go to create> arc> centre point arc> create a 50mm arc. Draw a line from both of ends to the origin. ( It is fine to overlap the construction line)
+
+![](images/revolve2.png){: width="40%"}
+1. Click finish sketch> click the revolve function on the top left. A pop-up should appear.
+2. Fusion360 recognises the construction line and selects that as axis. In future models, you can change to another axis by clicking on axis on the pop-up> select your new axis.
+3. For profile, click on your 2D model. You should see it made a circular feature from the quadrant we created.
+* **Hope you got a good sense on what revolve is**
 
 ## Knight Chess Piece 3D Modelling
 Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
