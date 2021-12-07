@@ -11,3 +11,4 @@ layout: default
 
 ## Music box
 **Under construction**
+![](images/construction.gif){: width="30%"}
