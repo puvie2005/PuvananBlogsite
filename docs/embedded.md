@@ -3,4 +3,6 @@ layout: default
 ---
 
 # Embedded Programming
-Notes on Embedded Programming
+
+![](images/construction.gif){: width="60%"}
+* **Under construction**
