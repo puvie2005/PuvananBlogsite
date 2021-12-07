@@ -32,6 +32,31 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 ### You should now have this legendary image
 ![](images/raster step 13.png){: width="20%"}
 
+## 3D modelling with Fusion360
+3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software. In this module, we will use Fusion360 to 3D model objects for our project and assignments.
+
+### Fusion360 Practice
+![](images/fusion1.png){: width="30%"}
+* We will be learning how to make this 2D model in this practice.
+
+![](images/fusion2.png){: width="50%"}
+1. First create the circular features using the origin to constraint it. Use the circle function to create a circle Radius 20mm circle
+2. Go to create> arc> centre point arc> Create a arc from the origin of the previous circle at radius 35mm.
+
+![](images/fusion3.png){: width="50%"}
+1. Now lets finish the exterior rectangle feature. You can either use a rectangle and trim out the interior or use the line function like me.
+2. Head to the line function> from one end of the arc, draw a 60mm line down.
+3. From the previous point, draw a 70mm line perpendicular to it( horizontal)
+4. Repeat the same thing and connect it to the other end of the arc.
+
+![](images/fusion1.png){: width="30%"}
+1. We want a 50mmx15mm rectangle inside. This should be 10mm and 15mm away from the sides respectively. We shall use a different rectangle function!
+2. Go to create> point> and create a point on the midpoint of the 70mm base line.
+3. Press D on your keyboard and click on the point and the base line. Dimension it to 22.5mm (15mm away from bottom + 7.5-midpoint of rectangle)
+4. Go to create> rectangle> centre rectangle> set length to 5mm and height to 15mm!
+5. Now we have finally finished the practice!
+
+### Extrude Practice
 
 ## Knight Chess Piece 3D Modelling
 Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
