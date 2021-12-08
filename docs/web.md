@@ -60,6 +60,12 @@ table.GeneratedTable thead {
 
 ## How did I create my HTML/CSS website?
 
+### First things first..
+* You will be needing a text editor to host your html codes.
+* Some of the known editors are [Visualstudio](https://code.visualstudio.com/download), [Atom](https://atom.io/) and etc.
+* Research and download according to your preference.
+* I personally use Atom as I like the layout and versitility.
+
 ### Template for pages HTML
 
 Following picture was roughly the template used to create the [HTML layout](https://www.youtube.com/watch?v=0afZj1G0BIE/). It includes header, title, navigation and other features.
@@ -110,7 +116,12 @@ I used Mr Steven's EP100 markdown template from GITHUB. You can find more about 
 * Markdown is a lightweight markup language for creating formatted text using a plain-text editor. Personally, I believe markdown is a much simpler than html and thus went on with this.
 * Let's learn some basics so we can update our website as per our preference.
 
+### What you will need?
+* You will be needing a text code editor like the ones I mentioned at the start of the page.
+* Patience :)
+
 ### Headers
+
 ## Header 2 ( H2 )
 ### Header 3 ( H3 )
 #### Header 4 ( H4 )
@@ -157,5 +168,19 @@ __This makes my text bold__
 
 ### Images
 ![](images/images.png){: width="65%"}
+* This is an example of how I added images in this page!
 * Add images enclosed in brackets ( )
-* Example
+
+### How do I add more pages?
+* Add more pages by creating a new file in yr repository folder on your computer.
+* Change the ending prefix to ( .md). This is similiar as in html where we change it to (.html).
+* For this template, you have to add the following to get a consistent layout.
+```
+---
+layout: default
+---
+```
+
+### Important things to take note of..
+* When adding lists and moving on to next paragraph or header, please give spacing in between sections. If not next section will be considered as part of the lists
+* You might encounter troubles creating a table and hosting on github. Solve this by using a online html table generator. Copy paste that code in you text editor.
