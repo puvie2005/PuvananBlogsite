@@ -32,6 +32,40 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 ### You should now have this legendary image
 ![](images/raster step 13.png){: width="20%"}
 
+## Vector
+
+### What is a vector image?
+* Vector graphics, as a form of computer graphics, is the set of mechanisms for creating visual images directly from geometric shapes defined on a Cartesian plane, such as points, lines, curves, and polygons.
+* We will be making a logo of an animal which will then be used as a design for future laser cutting projects!
+
+### What will you need?
+* Software such as inkscape
+* Patience :)
+
+### How do I turn my image to a vector image?
+
+![](images/VC1.png){: width="45%"}
+1. Let's first open inkscape > head onto new document > open > select your [animal picture](https://res.cloudinary.com/dk-find-out/image/upload/q_70,c_pad,w_1200,h_630,f_auto/A-SPL-C0066487-Southern_Flying_Squirrel_zur24q_flgzzp.jpg)
+2. On your left bar, select the bazier line function ( underneath spiral looking option ) > click on bazier spline. We will use this to draw on our animal.
+3. Start drawing on your animal. However, only draw the body. Leave the limbs and head and tails for later.
+4. Spline all the way from start to around the animal and back to the first point. Then double click to end spline!
+5. Change colour by selecting a colour of your preference.
+5. There will be a black outline. To colour it , hold shift+ click on the colour to change it :)
+
+![](images/VC2.png){: width="45%"}
+1. Use the spline function again to draw your limbs. Avoid other portions of the body and colour the same.
+2. Give a colour code for the limbs now to differentiate them later.
+
+![](images/VC3.png){: width="45%"}
+1. Select your background squirrel image and right click > then hide image.
+2. Spline the face and then the ears and the chin and finally the nose. Don't forget to colour code them!
+3. Repeat the spline function for different aspects of the animal. For me I had to section and colour the face, the nose and the chin.
+4. Lastly, spline the tail and colour code it.
+5. You should havea finished animal vector image. You can shift select different parts of the animal to change to colours of your choice.
+
+#### Final vector image
+![](images/vector9.png){: width="45%"}
+
 ## 3D modelling with Fusion360
 * 3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software.
 * In this module, we will use Fusion360 to 3D model objects for our project and assignments.
@@ -83,7 +117,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 1. Click finish sketch> click the revolve function on the top left. A pop-up should appear.
 2. Fusion360 recognises the construction line and selects that as axis. In future models, you can change to another axis by clicking on axis on the pop-up> select your new axis.
 3. For profile, click on your 2D model. You should see it made a circular feature from the quadrant we created.
-* **Hope you got a good sense on what revolve is**
+4. **Hope you got a good sense on what revolve is**
 
 ## Knight Chess Piece 3D Modelling
 Another assignment was to create a 3D model of the knight chess piece. We all know it is a bit hard to create one from scratch. Soooo, let's cheat( **By using a canvas to sketch it out**).
