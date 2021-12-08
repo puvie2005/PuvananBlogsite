@@ -102,3 +102,39 @@ The page is broken up into different portions. Each portion has are divided and 
 1. Imagine splitting your website into different sections. We want a navigation, content, container, main and lastly a footer.
 2. Work out some dimensions in either pixels or percentage on how you want it.
 3. Follow the layout to make a similiar box looking main page. **You can edit the width of page by changing container width to more than 800px.**
+
+## How did I create my Markdown site?
+I used Mr Steven's EP100 markdown template from GITHUB. You can find more about downloading it over [here](https://rdorville.github.io/EP1000/web-pk/web-pk.html).
+
+### Introduction
+* Markdown is a lightweight markup language for creating formatted text using a plain-text editor. Personally, I believe markdown is a much simpler than html and thus went on with this.
+* Let's learn some basics so we can update our website as per our preference.
+
+#### Headers
+# Header 1 ( H1 )
+- Note: Limit to 1 H1 per page as your markdown page comes with a H1 initially!**
+## Header 2 ( H2 )
+
+### Header 3 ( H3 )
+
+* Biggest size is 1 and to decrease header size, just increase the number. Note: Too small of a header might be hard to see, so play around with it!
+
+#### Font and sizing
+* *This makes my text italic*
+```
+*This makes my text italic*
+or
+_This makes my text italic_
+```
+* **This makes my text bold**
+```
+**This makes my text bold**
+```
+* **This makes my text bold**
+```
+**This makes my text bold**
+or
+__This makes my text bold__
+```
+
+#### Lists
