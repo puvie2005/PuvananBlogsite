@@ -52,7 +52,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 5. Change colour by selecting a colour of your preference.
 5. There will be a black outline. To colour it , hold shift+ click on the colour to change it :)
 
-![](images/VC2.png){: width="45%"}
+![](images/VC22.png){: width="45%"}
 1. Use the spline function again to draw your limbs. Avoid other portions of the body and colour the same.
 2. Give a colour code for the limbs now to differentiate them later.
 
@@ -63,8 +63,8 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 4. Lastly, spline the tail and colour code it.
 5. You should havea finished animal vector image. You can shift select different parts of the animal to change to colours of your choice.
 
-#### Final vector image
-![](images/vector9.png){: width="45%"}
+### Final vector image
+![](images/vector9.png){: width="38%"}
 
 ## 3D modelling with Fusion360
 * 3D modeling is the process of developing a mathematical coordinate-based representation of any surface of an object in three dimensions via specialized software.
