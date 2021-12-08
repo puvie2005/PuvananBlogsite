@@ -144,10 +144,12 @@ __This makes my text bold__
 #### Example
 ![](images/list.png){: width="50%"}
 * This is an example of what this section looks like as a list
+
 ### Links
 * Adding links will be pretty important in a website to guide users to resources and other sites for references.
 * Add links enclosed in a ( ). Note, we have to add [ ] and label what the link is for the user to see on the site.
 * This is a test to the markdown template over [here](https://rdorville.github.io/EP1000/web-pk/web-pk.html).
+
 #### Example
 ![](images/link.png){: width="60%"}
 * This is an example of how I included a link in this section!
