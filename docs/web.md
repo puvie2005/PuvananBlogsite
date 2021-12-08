@@ -134,37 +134,19 @@ __This makes my text bold__
 ### Lists
 * Lists can be ordered or unordered. Ordered meaning with numerical ranking and unordered is without one.
 #### Unordered
-Make lists by
-* unordered
-* unordered
-
+* Ordered
 #### Ordered
 1. Number 1
-2. Number 2
-```
-1. Hello world
-2. Hello world
-```
+#### Example
+![](images/list.png){: width="50%"}
 ### Images
-* You can add any image you like and change width and size!
-```
-(/image/sample.png "This is a sample image.")
-```
-* In order to change the size, add the width and change the pixels or percentage.( I would recommend % as its visually easier to comprehend )
-```
-![](images/css.png){: width="30%"}
-```
-* In order to add an alternate text to describe image, use alt text.
-```
+![](images/images.png){: width="50%"}
 
-![This is a alt text.](/image/sample.png "This is a sample image.")
-
-```
 ### Links
 * Adding links will be pretty important in a website to guide users to resources and other sites for references.
 * Add links enclosed in a ( ). Note, we have to add [] and label what the link is for the user to see on the site.
 * This is a test to the markdown template over [here](https://rdorville.github.io/EP1000/web-pk/web-pk.html).
-```
-[here] and add beside it (https://rdorville.github.io/EP1000/web-pk/web-pk.html)
-```
+#### Example
+![](images/link.png){: width="40%"}
+
 ###
