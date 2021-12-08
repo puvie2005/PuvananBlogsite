@@ -112,14 +112,12 @@ I used Mr Steven's EP100 markdown template from GITHUB. You can find more about 
 
 #### Headers
 # Header 1 ( H1 )
-- Note: Limit to 1 H1 per page as your markdown page comes with a H1 initially!**
 ## Header 2 ( H2 )
-
 ### Header 3 ( H3 )
-
+- Note: Limit to 1 H1 per page as your markdown page comes with a H1 initially!
 * Biggest size is 1 and to decrease header size, just increase the number. Note: Too small of a header might be hard to see, so play around with it!
 
-#### Font and sizing
+### Font and sizing
 * *This makes my text italic*
 ```
 *This makes my text italic*
@@ -137,4 +135,36 @@ or
 __This makes my text bold__
 ```
 
-#### Lists
+### Lists
+* Lists can be ordered or unordered. Ordered meaning with numerical ranking and unordered is without one.
+#### Unordered
+* unordered
+* unordered
+```
+* Hello world
+* Hello world
+```
+#### Ordered
+1. Number 1
+2. Number 2
+3. Number 3
+```
+1. Hello world
+2. Hello world
+3. Hello world
+```
+
+### Images
+* You can add any image you like and change width and size!
+```
+(/image/sample.png "This is a sample image.")
+```
+* In order to change the size, add the width and change the pixels or percentage.( I would recommend % as its visually easier to comprehend )
+```
+![](images/css.png){: width="30%"}
+```
+* In order to add an alternate text tp describe image, use alt text.
+```
+![This is a alt text.](/image/sample.png "This is a sample image.")
+
+```
