@@ -174,7 +174,7 @@ __This makes my text bold__
 ### How do I add more pages?
 * Add more pages by creating a new file in yr repository folder on your computer.
 * Change the ending prefix to ( .md). This is similiar as in html where we change it to (.html).
-* For this template, you have to add the following to get a consistent layout.
+* For this template, you have to add the following at the start of the page to apply the layout.
 ```
 ---
 layout: default
