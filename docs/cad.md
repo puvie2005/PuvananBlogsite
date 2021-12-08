@@ -39,7 +39,7 @@ In short it deals with pixels on the screen. It is usually used for photographs,
 * We will be making a logo of an animal which will then be used as a design for future laser cutting projects!
 
 ### What will you need?
-* Software such as inkscape
+* Software such as [inkscape](https://inkscape.org/release/inkscape-1.1.1/)
 * Patience :)
 
 ### How do I turn my image to a vector image?
