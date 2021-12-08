@@ -111,9 +111,9 @@ I used Mr Steven's EP100 markdown template from GITHUB. You can find more about 
 * Let's learn some basics so we can update our website as per our preference.
 
 ### Headers
-# Header 1 ( H1 )
 ## Header 2 ( H2 )
 ### Header 3 ( H3 )
+#### Header 4 ( H4 )
 - Note: Limit to 1 H1 per page as your markdown page comes with a H1 initially!
 * Biggest size is 1 and to decrease header size, just increase the number. Note: Too small of a header might be hard to see, so play around with it!
 
@@ -127,10 +127,6 @@ _This makes my text italic_
 * **This makes my text bold**
 ```
 **This makes my text bold**
-```
-* **This makes my text bold**
-```
-**This makes my text bold**
 or
 __This makes my text bold__
 ```
@@ -138,22 +134,17 @@ __This makes my text bold__
 ### Lists
 * Lists can be ordered or unordered. Ordered meaning with numerical ranking and unordered is without one.
 #### Unordered
+Make lists by
 * unordered
 * unordered
-```
-* Hello world
-* Hello world
-```
+
 #### Ordered
 1. Number 1
 2. Number 2
-3. Number 3
 ```
 1. Hello world
 2. Hello world
-3. Hello world
 ```
-
 ### Images
 * You can add any image you like and change width and size!
 ```
@@ -163,8 +154,9 @@ __This makes my text bold__
 ```
 ![](images/css.png){: width="30%"}
 ```
-* In order to add an alternate text tp describe image, use alt text.
+* In order to add an alternate text to describe image, use alt text.
 ```
+
 ![This is a alt text.](/image/sample.png "This is a sample image.")
 
 ```
@@ -173,6 +165,6 @@ __This makes my text bold__
 * Add links enclosed in a ( ). Note, we have to add [] and label what the link is for the user to see on the site.
 * This is a test to the markdown template over [here](https://rdorville.github.io/EP1000/web-pk/web-pk.html).
 ```
-[here](https://rdorville.github.io/EP1000/web-pk/web-pk.html)
+[here] and add beside it (https://rdorville.github.io/EP1000/web-pk/web-pk.html)
 ```
 ###
