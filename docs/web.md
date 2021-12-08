@@ -110,7 +110,7 @@ I used Mr Steven's EP100 markdown template from GITHUB. You can find more about 
 * Markdown is a lightweight markup language for creating formatted text using a plain-text editor. Personally, I believe markdown is a much simpler than html and thus went on with this.
 * Let's learn some basics so we can update our website as per our preference.
 
-#### Headers
+### Headers
 # Header 1 ( H1 )
 ## Header 2 ( H2 )
 ### Header 3 ( H3 )
@@ -168,3 +168,11 @@ __This makes my text bold__
 ![This is a alt text.](/image/sample.png "This is a sample image.")
 
 ```
+### Links
+* Adding links will be pretty important in a website to guide users to resources and other sites for references.
+* Add links enclosed in a ( ). Note, we have to add [] and label what the link is for the user to see on the site.
+* This is a test to the markdown template over [here](https://rdorville.github.io/EP1000/web-pk/web-pk.html).
+```
+[here](https://rdorville.github.io/EP1000/web-pk/web-pk.html)
+```
+###
