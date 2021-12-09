@@ -50,11 +50,14 @@ menu:
     link: /docs/embedded.html
     icon: ""
 
-
   - text: Final Project
     link: /docs/project.html
     icon: ""
 
+  - text: Tools
+    link: /tools.html
+    icon: ""
+    
   - text: Contact
     link: /contact.html
     icon: ""
