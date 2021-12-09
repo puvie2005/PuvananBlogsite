@@ -6,7 +6,7 @@ layout: default
 
 ## Raster vs Vector
 ![](images/RvV.jpg){: width="40%"}
-Vector graphics are digital art that is rendered by a computer using a mathematical formula. Raster images are made up of tiny pixels, making them resolution dependent and best used for creating photos
+* Vector graphics are digital art that is rendered by a computer using a mathematical formula. Raster images are made up of tiny pixels, making them resolution dependent and best used for creating photos
 
 ## Raster
 One of the assignments for EP1000 is to learn and use raster graphics using a software called [GIMP](https://www.gimp.org/). We were tasked to remove the background of our selfie image and replace it with a seaside background of our choice. Most importantly, the image had to be resized to 1024 pixels wide.
