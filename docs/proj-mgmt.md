@@ -21,12 +21,13 @@ Once you have done with the html, you would realise you dont really have a websi
 * Check initialise with README file
 * Don't forget to turn on license and use the MIT license type.
 
-### Things to do now!
+### Moving your HTML/Markdown files
 ![](images/filepath.png){: width="60%"}
-* You now have a file that can host your site with a link.
+* You now have a file that can host your site
 * Move your files that you have done so far to the repository filepath on your computer.
-* Once you have moved you files, commit to main and push to origin tp update the files.
-* Don't forget to change your links in the navigation lists since you have a new link.
+* Once you have moved you files
+* Head onto Github desktip app> Commit to main and push to origin to update the files.
+* You have made some changes to the repository by adding files. What you have done is update your repository!
 
 ### Generate link for your github pages
 ![](images/page.png){: width="60%"}
