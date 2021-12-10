@@ -10,23 +10,13 @@ Once you have done with the html, you would realise you dont really have a websi
 1. [GITHUB Desktop app](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop).
 2. [Github website](https://github.com/).
 
-### Sign up and repository
-![](images/repo.png){: width="70%"}
-* Firstly sign in or sign up for a github account.
-* Now let's create a new repository. Name it as your website or your project name!
-* Make sure it is set as public > Check Add Readme file
-* Check license and choose MIT.
-
-### Generate link for your github pages
-![](images/page.png){: width="60%"}
-* You would have noticed the README and LICENSE files. These are your contents in your current repository.
-* Go to settings > pages > select branch as main.
-* Now you can see the link to your repository site!
+## How do I create repository on Github?
 
 ### GITHUB Desktop app
 ![](images/git4.png){: width="30%"}
 * Install github desktop app and sign in.
 * Go to files > add new repository.
+* Repository is where you store all you files that Github can process it into a website.
 * Give a name and description of your site/ repository.
 * Check initialise with README file
 * Don't forget to turn on license and use the MIT license type.
@@ -35,7 +25,25 @@ Once you have done with the html, you would realise you dont really have a websi
 ![](images/filepath.png){: width="60%"}
 * You now have a file that can host your site with a link.
 * Move your files that you have done so far to the repository filepath on your computer.
+* Once you have moved you files, commit to main and push to origin tp update the files.
 * Don't forget to change your links in the navigation lists since you have a new link.
+
+### Generate link for your github pages
+![](images/page.png){: width="60%"}
+* Go to Github website and sign in. Access your repository you have just created.
+* You would have noticed the README and LICENSE files. These are your contents in your current repository.
+* Go to settings > pages > select branch as main.
+* Now you can see the link to your repository site!
+
+#### Another way!
+![](images/repo.png){: width="70%"}
+* If you wish to create it on the github website instead, follow along!
+* Firstly sign in or sign up for a github account.
+* Now let's create a new repository. Name it as your website or your project name!
+* Make sure it is set as public > Check Add Readme file
+* Check license and choose MIT.
+* **Then on you Github app, instead of add new repository, you should clone repository.**
+* Then follow the previous steps and you would have similiar results!.
 
 ## Maintaining your site
 
