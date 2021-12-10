@@ -170,6 +170,9 @@ __This makes my text bold__
 ![](images/images.png){: width="65%"}
 * This is an example of how I added images in this page!
 * Add images enclosed in brackets ( )
+* Alt text is a giving a name for your image hosted on the site for referance.
+* You would have noticed the /images. This is done as my images are in a subfolder of my current folder.
+* You should use "../". This is to come out of the existing folder and you can continue accessing your images.
 
 ### How do I add more pages?
 * Add more pages by creating a new file in yr repository folder on your computer.
