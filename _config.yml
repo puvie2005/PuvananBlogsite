@@ -65,9 +65,9 @@ menu:
 
 # Socialmedia Icons
 social_icons:
-  - name: outlook
+  - name: telegram
     link: "/PuvananBlogsite/contact.html"
-    icon: fab fa-outlook
+    icon: fab fa-telegram
 
   - name: github
     link: "/PuvananBlogsite/contact.html"
