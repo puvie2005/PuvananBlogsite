@@ -57,7 +57,7 @@ menu:
   - text: Tools
     link: /tools.html
     icon: ""
-    
+
   - text: Contact
     link: /contact.html
     icon: ""
@@ -65,18 +65,10 @@ menu:
 
 # Socialmedia Icons
 social_icons:
-  - name: linkedin
+  - name: outlook
     link: "/PuvananBlogsite/contact.html"
-    icon: fab fa-linkedin
+    icon: fab fa-outlook
 
   - name: github
     link: "/PuvananBlogsite/contact.html"
     icon: fab fa-github-square
-
-  - name: facebook
-    link: "/PuvananBlogsite/contact.html"
-    icon: fab fa-facebook-square
-
-  - name: twitter
-    link: "/PuvananBlogsite/contact.html"
-    icon: fab fa-twitter
