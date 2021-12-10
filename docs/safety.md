@@ -36,6 +36,22 @@ In case of any emergency, please seek help via the following numbers
 
 ![](images/placard.png){: width="40%"}
 
+## Basic Safety Rules
+1. Report all injuries no matter how minor to the staff in charge.
+2. Do not operate any machinery unless trained in its safe usage and given permission to do so.
+
+### Keep the workplace neat and orderly after use by..
+1. Returning tools to their designated storage areas.
+2. Cleaning up debris and chips.
+3. Recycling leftover materials.
+4. Report all unsafe conditions or acts to your staff in charge.
+5. Wear Personal Proctective Equipment (PPE) when appropriate.
+
+### Emergency Procedures
+* If the alarm sounds, stop work immediatly and wait for staff in charge.
+* If a fire starts in the lab inform everyone immediatly and leave the lab.
+* When reporting emergencies please seek the help of the staff.
+
 ## Hazards
 
 ### Hazards associated with machinery
@@ -47,9 +63,3 @@ In case of any emergency, please seek help via the following numbers
 Some of the few mechanical and non-mechanical hazrads...
 
 ![](images/electricals.jpg){: width="28%"}![](images/noises.jpg){: width="24%"}![](images/entangles.jpg){: width="36.5%"}
-
-## 3D printing
--  These are the safety tips and knowledge required to use the 3D printer.
-
-## Laser Cutting
--  These are the safety tips and knowledge required prior to laser cutting in the Fablab.

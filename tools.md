@@ -54,7 +54,7 @@ table.GeneratedTable thead {
     <tr>
       <td>Vector Editor</td>
       <td>InkScape</td>
-      <td>I have some previous experiences in inkscape and I there was numerous tutorials on youtube</td>
+      <td>I have some previous experiences in inkscape and there was numerous tutorials on youtube</td>
     </tr>
     <tr>
       <td>Screen Capture</td>
