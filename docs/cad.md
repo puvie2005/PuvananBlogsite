@@ -4,6 +4,9 @@ layout: default
 
 # Computer Aided Design
 
+## Introduction
+We will be going through varoius comouter aided designing on this page. They include the usage of GIMP for raster images, Inkscape for vector and Fusion360 for 3D modelling.
+
 ## Raster vs Vector
 ![](images/RvV.jpg){: width="40%"}
 * Vector graphics are digital art that is rendered by a computer using a mathematical formula. Raster images are made up of tiny pixels, making them resolution dependent and best used for creating photos
