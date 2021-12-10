@@ -72,7 +72,3 @@ social_icons:
   - name: github
     link: "/PuvananBlogsite/contact.html"
     icon: fab fa-github-square
-
-  - name: mail
-    link: "/PuvananBlogsite/contact.html"
-    icon: fab fa-mail
