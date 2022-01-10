@@ -24,4 +24,6 @@ layout: default
 
 
 ## Music box
-![](images/construction.gif){: width="60%"}
+To put our lasercutting and CAD skills to the test, we were tasked to design a simple music box and lasercut it. This section will be split into parts. Firstly the **CAD** portion and there on we will look into the **Lasercut** portion.
+
+### Music Box design
