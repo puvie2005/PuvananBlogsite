@@ -71,7 +71,7 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 
 ## Lasercut MusixBox
 
-![](images/laser1.png){: width="50%"}
+![](images/laser1.png){: width="70%"}
 * We cannot print a 3d model on a 2d plane. Thus, each face is to be exported as an dxf file to lasercut in 2D.
 * Right click on your sketches in fusion360 and export as .dxf
 * You will be needing inkscape to host these images.
@@ -84,7 +84,7 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 * For cutting set the outline of the pieces to RGB 255,0,0 (Red).
 * We use the colour green for engraving
 
-![](images/havier.png){: width="50%"}
+![](images/havier.png){: width="70%"}
 * Due to the fablab at T1444 being busy, I had to go to other Fablab to lasercut.
 * Thus there are difference in settings as the laser cutter below uses a different software.
 * Take a look at how the settings are callibrated.
@@ -92,5 +92,5 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 ![](images/laservideo.gif){: width="50%"}
 * This shows the lasercutter in action. It starts off with the engraving designs and moves on to cutting out the pieces.
 
-![](images/havier2.mp4){: width="40%"}
+![](images/havier3.gif){: width="40%"}
 * Here is the final product in action!!
