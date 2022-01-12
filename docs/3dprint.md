@@ -5,7 +5,9 @@ layout: default
 # 3D Printing
 Here I will publish what I have learnt about 3D printing in EP1000!
 
-3D printing opens up a whole new world of possibilities in design and fabrication. Using filaments such as PLA, we can achieve loads of unique prints. All you need is an idea!
+## 3D Printing Quiz
+![](images/3dquiz.png){: width="40%"}
+* A 3D printing quiz had to be passed with a minimum of 90% to use and book thr 3D printers in the Fablab
 
 ## Knight Chess piece
 We have already modelled and exported our knight piece as a.stl file. You can use any slicer in accordance to the 3d printer you are using. For my case, in the Fablab we are using Ultimaker 2+. So i downloaded [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura). Upload your file and slice it!
