@@ -71,7 +71,7 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 
 ## Lasercut MusixBox
 
-![](images/setting1.jpeg){: width="50%"}
+![](images/laser1.png){: width="50%"}
 * We cannot print a 3d model on a 2d plane. Thus, each face is to be exported as an dxf file to lasercut in 2D.
 * Right click on your sketches in fusion360 and export as .dxf
 * You will be needing inkscape to host these images.
