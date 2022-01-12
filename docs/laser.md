@@ -27,7 +27,7 @@ layout: default
 To put our lasercutting and CAD skills to the test, we were tasked to design a simple music box and lasercut it. This section will be split into parts. Firstly the **CAD** portion and there on we will look into the **Lasercut** portion.
 
 ## CAD Design
-![](images/box1.png){: width="55%"}
+![](images/box1.png){: width="40%"}
 * We will learn how to design a simple music box using Fusion360.
 
 ![](images/box2.png){: width="60%"}
@@ -56,7 +56,7 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 ![](images/box8.png){: width="60%"}
 * Similiar to previous step, we will extrude with thk and Copy/Move (Point to Point) for combine
 
-![](images/box4.png){: width="60%"}
+![](images/box4.png){: width="40%"}
 * We will make the lid first.
 * You can make the lid in whichever way you like.
 * Do not forget to add the 2 handles to pivot on both corners for the lid so it stays in Place
@@ -65,7 +65,7 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 * Now let's make the round curviture to house the 2 pivots so that it can move about freely.
 * I used a 1.5mm diameter curviture.
 
-![](images/box6.png){: width="60%"}
+![](images/box6.png){: width="40%"}
 * Lastly, lets make the hole to house the winding handle so we can play the music box.
 * Follow the measurements I used for my music box. Your's may vary so measure and dimension accordingly.
 
