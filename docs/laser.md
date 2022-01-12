@@ -27,5 +27,5 @@ layout: default
 To put our lasercutting and CAD skills to the test, we were tasked to design a simple music box and lasercut it. This section will be split into parts. Firstly the **CAD** portion and there on we will look into the **Lasercut** portion.
 
 ### Music Box design
-We will learn how to design a simple music box using Fusion360.
-![](images/laser.jpeg){: width="40%"}
+![](images/box1.png){: width="50%"}
+* We will learn how to design a simple music box using Fusion360.
