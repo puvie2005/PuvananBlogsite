@@ -80,3 +80,65 @@ table.GeneratedTable thead {
 <!-- Codes by Quackit.com -->
 
 ### Bill of materials
+<!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+<style>
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #494e32;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #494e32;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #ade774;
+}
+</style>
+
+<!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+<table class="GeneratedTable">
+  <thead>
+    <tr>
+      <th>Sn.</th>
+      <th>Qty</th>
+      <th>Item Description</th>
+      <th>Approx Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>Servo</td>
+      <td>$2.50/pc</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>Arduino Nano</td>
+      <td>Fablab</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>1</td>
+      <td>SPDT Switch</td>
+      <td>Cell</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>1</td>
+      <td>On/Off switch</td>
+      <td>Cell</td>
+    </tr>
+  </tbody>
+</table>
+<!-- Codes by Quackit.com -->
