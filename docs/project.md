@@ -131,13 +131,13 @@ table.GeneratedTable thead {
       <td>3</td>
       <td>1</td>
       <td>SPDT Switch</td>
-      <td>Cell</td>
+      <td>$0.90/pc</td>
     </tr>
     <tr>
       <td>4</td>
       <td>1</td>
-      <td>On/Off switch</td>
-      <td>Cell</td>
+      <td>On/Off( SPST ) switch</td>
+      <td>$1.03</td>
     </tr>
   </tbody>
 </table>
