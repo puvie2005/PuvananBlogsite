@@ -5,6 +5,14 @@ layout: default
 # 3D Printing
 Here I will publish what I have learnt about 3D printing in EP1000!
 
+## What is 3D Printing?
+3D Printing is also known as additive manufacturing. It involves creating a 3D object with CAD using layering method. Layering by using materials such as plastics to create a range of geometry, sizes, rigidity and colour. The nozzle ejects out plastic at thin layers of different heights to create a 3D object.
+
+## Types of 3D printing?
+* The most common way, FDA, is basically laying down the material on thin layers, layer by layer.
+* SLA 3D printers use light-reactive thermoset materials called “resin.” When SLA resins are exposed to certain wavelengths of light, short molecular chains join together, polymerizing monomers and oligomers into solidified rigid or flexible geometries.
+* SLS. Selective laser sintering is an additive manufacturing (AM) technology that uses a high power laser to sinter small particles of polymer powder into a solid structure based on a 3D model.
+
 ## 3D Printing Quiz
 ![](images/3dquiz.png){: width="40%"}
 * A 3D printing quiz had to be passed with a minimum of 90% to use and book thr 3D printers in the Fablab
