@@ -92,5 +92,5 @@ To put our lasercutting and CAD skills to the test, we were tasked to design a s
 ![](images/laservideo.gif){: width="50%"}
 * This shows the lasercutter in action. It starts off with the engraving designs and moves on to cutting out the pieces.
 
-![](images/havier3.gif){: width="20%"}
+![](images/havier13.gif){: width="30%"}
 * Here is the final product in action!!
