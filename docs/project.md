@@ -136,8 +136,8 @@ table.GeneratedTable thead {
     <tr>
       <td>4</td>
       <td>1</td>
-      <td>On/Off( SPST ) switch</td>
-      <td>$1.03</td>
+      <td>On/Off( SPST ) Rocker switch</td>
+      <td>$2.06</td>
     </tr>
   </tbody>
 </table>
