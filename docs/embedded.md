@@ -95,7 +95,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * place the resistor perpendicular to the led and connect the other end to the ground. Now you should have a electrically working circuit.
 
 #### Coding
-![](images/arduino12.gif){: width="50%"}
+![](images/arduino12.gif){: width="80%"}
 * In void setup we want to establish which pin the led is connected to recieve any commands. Use the "pinMode(XX, OUTPUT)" command
 * "XX" is the pin number the led is connected to. You have to type in OUTPUT to establish output a command.
 * Do not forget your ";" at the end of every one of your line in the sketch
