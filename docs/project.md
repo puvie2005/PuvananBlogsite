@@ -118,7 +118,7 @@ table.GeneratedTable thead {
     <tr>
       <td>1</td>
       <td>2</td>
-      <td>Micro-Servo( 180 degrees)</td>
+      <td>[Micro-Servo( 180 degrees)](https://sg.element14.com/mcm/83-17987/micro-servo-180-degree-for-arduinoraspberry/dp/2801406?st=micro%20servo)</td>
       <td>$5.92/pc</td>
     </tr>
     <tr>
@@ -130,13 +130,13 @@ table.GeneratedTable thead {
     <tr>
       <td>3</td>
       <td>1</td>
-      <td>SPDT Switch</td>
+      <td>[SPDT Switch](https://robot-r-us.com.sg/p/toggle-switch-3-pin-spdt-2a-250vac)</td>
       <td>$0.90/pc</td>
     </tr>
     <tr>
       <td>4</td>
       <td>1</td>
-      <td>On/Off( SPST ) Rocker switch</td>
+      <td>[On/Off( SPST ) Rocker switch](https://sg.element14.com/alcoswitch-te-connectivity/prasa1-16f-bb0bw/switch-spst-16a-125vac-black/dp/4710368?st=spst%20switch)</td>
       <td>$2.06</td>
     </tr>
   </tbody>
