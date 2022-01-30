@@ -81,7 +81,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Arduino UNO
 
 #### Blinking LED
-
+![](images/arduino10.jpg)
 * Create a new design on your tinkercad dashboard
 * On the right side of the screen you will find a search panel. This is where we will find our components to make our circuits
 * Search and place the following components to make our blinking LED circuit
