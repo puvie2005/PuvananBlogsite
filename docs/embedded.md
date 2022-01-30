@@ -80,4 +80,26 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Pushbuttons
 * Arduino UNO
 
-####
+#### Blinking LED
+![](images/arduino10.jpg)
+* Create a new design on your tinkercad dashboard
+* On the right side of the screen you will find a search panel. This is where we will find our components to make our circuits
+* Search and place the following components to make our blinking LED circuit
+* Arduino UNO, LED, Breadboard and resistor(any value not too high impedance)
+
+##### Wiring
+* Connect the 5v and ground to the positive and negative terminals on the breadboard respectively
+* Place the led onto the working area of the breadboard.
+* connect 1 terminal of the led to positive of breadboard.
+* place the resistor perpendicular to the led and connect the other end to the ground. Now you should have a electrically working circuit.
+![](images/arduino9.gif)
+##### Coding
+* In void setup we want to establish which pin the led is connected to recieve any commands. Use the "pinMode(XX, OUTPUT)" command
+* "XX" is the pin number the led is connected to. You have to type in OUTPUT to establish output a command.
+* Do not forget your ";" at the end of every one of your line in the sketch
+* In void loop we will use the "digitalWrite(XX, HIGH/LOW)" and the "delay()- in milliseconds" commands.
+* Start off the digitalWrite and mention the pin "10" and assign it as "HIGH" to turn it on.
+* Place a delay(500). This keeps the led ON for half a second.
+* Next up use the digitalWrite function but set it as "LOW". This turns off the LED
+* Place a delay(500). This turns off the LED for half a second. Since this is in void loop, this cycle will repeat causing a blinking repetition :)
+* Take note that the IDE is case-sensitive. Use CAPS for "HIGH", "LOW", "OUTPUT" and "INPUT". Note the capital "W" in digitalWrite.
