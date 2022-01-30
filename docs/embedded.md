@@ -68,3 +68,16 @@ https://www.tinkercad.com/dashboard
 * One example is when you want to turn your robot on — that does not happen multiple times!
 * In void loop(), your code will repeat over and over again.
 * Examples are when your robot is driving or using its sensor to check for obstacles.
+
+### tinkercad
+I will be demonstrating various circuits and codes via tinkercad. You can try it yourself and mess around with the tinkercad!
+
+#### Basic Components
+![](images/arduino6.png)
+* We will be using few compoents from the list you see above.
+* Breadboard- A thin plastic board used to hold electronic components
+* LEDS and resistors
+* Pushbuttons
+* Arduino UNO
+
+####
