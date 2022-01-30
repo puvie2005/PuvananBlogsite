@@ -61,3 +61,10 @@ https://www.tinkercad.com/dashboard
 * The "tick"/ check box is used to verify the code. This will complie your code and check for any errors prior to uploading.
 * The arrow button is to upload the code into the board. Don't worry if you didn't verify, the IDE will verify and let you know anyways :)
 * The other 3 buttons are "new", "open" and "safe" from left to right.
+
+![](images/arduino5.png)
+* You will need void setup() and void loop() to run your code. Without these, the code will not work.
+* The code that you put inside void setup() will only run once, and that will be at the beginning of your program.
+* One example is when you want to turn your robot on — that does not happen multiple times!
+* In void loop(), your code will repeat over and over again.
+* Examples are when your robot is driving or using its sensor to check for obstacles.
