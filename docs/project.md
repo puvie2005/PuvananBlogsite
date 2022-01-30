@@ -118,8 +118,8 @@ table.GeneratedTable thead {
     <tr>
       <td>1</td>
       <td>2</td>
-      <td>Servo</td>
-      <td>$2.50/pc</td>
+      <td>Micro-Servo( 180 degrees)</td>
+      <td>$5.92/pc</td>
     </tr>
     <tr>
       <td>2</td>
