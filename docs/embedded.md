@@ -95,7 +95,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * place the resistor perpendicular to the led and connect the other end to the ground. Now you should have a electrically working circuit.
 
 #### Coding
-![](images/arduino12.gif)
+![](images/arduino12.gif){: width="50%"}
 * In void setup we want to establish which pin the led is connected to recieve any commands. Use the "pinMode(XX, OUTPUT)" command
 * "XX" is the pin number the led is connected to. You have to type in OUTPUT to establish output a command.
 * Do not forget your ";" at the end of every one of your line in the sketch
@@ -107,7 +107,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Take note that the IDE is case-sensitive. Use CAPS for "HIGH", "LOW", "OUTPUT" and "INPUT". Note the capital "W" in digitalWrite.
 
 #### Traffic light
-![](images/arduino13.png)
+![](images/arduino13.png){: width="40%"}
 * Let us retry the previous example but with a different variation.
 * We will be adding another 2 LEDs to control a blinking process.
 * Give it a go with the experience from the previous Example
@@ -116,6 +116,6 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 ![](images/arduino14.gif)
 * Essentially we are using the same logic as the previous one.
 * I have used pins 10, 8 and 9 for 3 different coloured LEDs to simulate a simple traffic light system.
-* Instead of 2 digitalWrite to turn off and on the 1 led, we will be need 6 of it to control 3 LEDS.
+* Instead of 2 digitalWrite to turn off and on the 1 led, we will be needing 6 of it to control 3 LEDS.
 * Just add in another 4 more digitalWrite with logic "HIGH" and "LOW" along with any delay timings you like!
 * Take a look at mine :)
