@@ -81,7 +81,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Arduino UNO
 
 #### Blinking LED
-![](images/arduino10.jpg)
+
 * Create a new design on your tinkercad dashboard
 * On the right side of the screen you will find a search panel. This is where we will find our components to make our circuits
 * Search and place the following components to make our blinking LED circuit
@@ -105,3 +105,14 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Next up use the digitalWrite function but set it as "LOW". This turns off the LED
 * Place a delay(500). This turns off the LED for half a second. Since this is in void loop, this cycle will repeat causing a blinking repetition :)
 * Take note that the IDE is case-sensitive. Use CAPS for "HIGH", "LOW", "OUTPUT" and "INPUT". Note the capital "W" in digitalWrite.
+
+#### Traffic light
+* Let us retry the previous example but with a different variation.
+* We will be adding another 2 LEDs to control a blinking process.
+* Give it a go with the experience from the previous Example
+
+#### 3 LED wiring and Coding
+* Essentially we are using the same logic as the previous one.
+* Instead of 2 digitalWrite to turn off and on the 1 led, we will be need 6 of it to control 3 LEDS.
+* Just add in another 4 more digitalWrite with logic "HIGH" and "LOW" along with any delay timings you like!
+* Take a look at mine :)
