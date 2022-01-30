@@ -107,12 +107,15 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Take note that the IDE is case-sensitive. Use CAPS for "HIGH", "LOW", "OUTPUT" and "INPUT". Note the capital "W" in digitalWrite.
 
 #### Traffic light
+![](images/arduino13.png)
 * Let us retry the previous example but with a different variation.
 * We will be adding another 2 LEDs to control a blinking process.
 * Give it a go with the experience from the previous Example
 
-#### 3 LED wiring and Coding
+#### 3 LED Coding
+![](images/arduino14.gif)
 * Essentially we are using the same logic as the previous one.
+* I have used pins 10, 8 and 9 for 3 different coloured LEDs to simulate a simple traffic light system.
 * Instead of 2 digitalWrite to turn off and on the 1 led, we will be need 6 of it to control 3 LEDS.
 * Just add in another 4 more digitalWrite with logic "HIGH" and "LOW" along with any delay timings you like!
 * Take a look at mine :)
