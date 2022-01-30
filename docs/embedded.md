@@ -29,3 +29,29 @@ Digital pins serve a similiar purpose as the Analog input pins. However, the UNO
 
 ### Input/Output devices
 ![](images/arduino2.png)
+* Input and output devices are electrical components that are used to achieve a desired outcome via the embedded system. In this section we'll run through varipus I/O devices that range from analog to digital.
+* Red arrows going into the arduino are the input devices. These feed various signals( information) to the arduino.
+* The blue arrows are the output devices.
+
+#### Input devices
+* Pushbutton. Input device that uses digital signals. Uses logic "1" or "0" to produce outcome via toggling between states.
+* Toggle switch( SPDT ). Single pole double throw toggle switch. Input device like the pushbutton that uses digital signals but with more states to switch between.
+* Temperature sensors. Analog signal produced by measuring temperature.
+
+#### Output devices.
+* LEDs. Light emitting diode that uses digital signals to produce light.
+* DC Motor, Stepper motor and etc. Uses both analog and digital signals to output continous rotary motion or at positions.
+* Piezo buzzer. Outputs sounds via digital signals.
+
+### Programming the arduino ( basics )
+* We will be using Arduino IDE to program our UNO. We can also use tinkercad to wire-up the arduino and put our code in for simulation purposes.
+* Head onto the *[Arduino Website](https://www.arduino.cc/en/software) to download the IDE for free and we can continue learning the basics.
+* You can also use [tinkercad](https://www.tinkercad.com/dashboard) which is a website to test out circuits and code.
+https://www.tinkercad.com/dashboard
+
+#### Arduino IDE
+![](images/arduino3.png)
+* After downloading the IDE, this should show up. This is where you will br writing your code and uploading onto the Arduino UNO.
+* Before we go through the basics, let's setup the IDE.
+* Go to tools > boards > select the board you are using. In our case it is the Arduino UNO.
+* If you do not select the correct board, the IDE will have troubles uploading the code to it as the system can't recognise the board plugged into the computer.
