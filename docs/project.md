@@ -142,3 +142,6 @@ table.GeneratedTable thead {
   </tbody>
 </table>
 <!-- Codes by Quackit.com -->
+
+#### References
+*[Useless Machine](https://www.instructables.com/Arduino-Most-Useless-Machine-Ever-project/)
