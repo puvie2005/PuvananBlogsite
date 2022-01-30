@@ -45,7 +45,7 @@ Digital pins serve a similiar purpose as the Analog input pins. However, the UNO
 
 ### Programming the arduino ( basics )
 * We will be using Arduino IDE to program our UNO. We can also use tinkercad to wire-up the arduino and put our code in for simulation purposes.
-* Head onto the *[Arduino Website](https://www.arduino.cc/en/software) to download the IDE for free and we can continue learning the basics.
+* Head onto the [Arduino Website](https://www.arduino.cc/en/software) to download the IDE for free and we can continue learning the basics.
 * You can also use [tinkercad](https://www.tinkercad.com/dashboard) which is a website to test out circuits and code.
 https://www.tinkercad.com/dashboard
 
@@ -55,3 +55,9 @@ https://www.tinkercad.com/dashboard
 * Before we go through the basics, let's setup the IDE.
 * Go to tools > boards > select the board you are using. In our case it is the Arduino UNO.
 * If you do not select the correct board, the IDE will have troubles uploading the code to it as the system can't recognise the board plugged into the computer.
+
+![](images/arduino4.png)
+* At the top of your screen, there are few buttons to toggle between.
+* The "tick"/ check box is used to verify the code. This will complie your code and check for any errors prior to uploading.
+* The arrow button is to upload the code into the board. Don't worry if you didn't verify, the IDE will verify and let you know anyways :)
+* The other 3 buttons are "new", "open" and "safe" from left to right.
