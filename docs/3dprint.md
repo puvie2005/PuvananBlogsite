@@ -18,7 +18,11 @@ Here I will publish what I have learnt about 3D printing in EP1000!
 * A 3D printing quiz had to be passed with a minimum of 90% to use and book thr 3D printers in the Fablab
 
 ## Knight Chess piece
-We have already modelled and exported our knight piece as a.stl file. You can use any slicer in accordance to the 3d printer you are using. For my case, in the Fablab we are using Ultimaker 2+. So i downloaded [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura). Upload your file and slice it!
+We have already modelled and exported our knight piece as a.stl file. You can use any slicer in accordance to the 3d printer you are using. For my case, in the Fablab we are using Ultimaker 2+. So i downloaded [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura). Upload your file and slice it!.
+
+## CAD Knight Chess piece
+* I have done the CAD for this on the CAD page on this website. It is all the way at the bottom of the page.
+* Head on over to the [CAD Page](https://puvie2005.github.io/PuvananBlogsite/docs/cad.html).
 
 ### Slicing and printing file
 ![](images/3dcollage1.jpg){: width="60%"}
