@@ -47,7 +47,6 @@ Digital pins serve a similiar purpose as the Analog input pins. However, the UNO
 * We will be using Arduino IDE to program our UNO. We can also use tinkercad to wire-up the arduino and put our code in for simulation purposes.
 * Head onto the [Arduino Website](https://www.arduino.cc/en/software) to download the IDE for free and we can continue learning the basics.
 * You can also use [tinkercad](https://www.tinkercad.com/dashboard) which is a website to test out circuits and code.
-https://www.tinkercad.com/dashboard
 
 #### Arduino IDE
 ![](images/arduino3.png)
