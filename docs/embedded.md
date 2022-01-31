@@ -133,3 +133,10 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * In the if loop, we establish it as the command if the sw1 is "HIGH". Inside this loop enclose your blink code with "{}".
 * In the else loop, we establish it as the command for the sw1 is "LOW". We do not need to mention "LOW" as automatically known as the next possible outcome.
 * Inside the else loop, chuck in your turn off led with no delay. This makes sure your LED is off all the way as long as your button is not pressed.
+
+#### Pushbutton traffic light
+![](images/arduino16.gif)
+* Use the previous example, but now add in a green and yellow LED
+* We have done this example previously with traffic light LEDs, however, now just use the last example to add a switch.
+* If the switch is pressed, a traffic light sequence will complete.
+* If the switch is released, the sequence will finish and all the leds will stop lighting up.
