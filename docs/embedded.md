@@ -139,7 +139,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * If the switch is pressed, a traffic light sequence will complete.
 * If the switch is released, the sequence will finish and all the leds will stop lighting up.
 
-## Assignment 12
+## Assignment 12 Final outcome
 ![](images/arduino17.png)
 * I have shown you the basics of LED and the pushbutton. Now we will try different sequences using both components.
 * This assignment is a continuation of the knowledge we have learnt from previous examples. Follow the sequence Below
