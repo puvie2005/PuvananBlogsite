@@ -155,7 +155,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * We create a void decode to setup the 4 different cases including a state where all are off. Tinker with the cases to make it output to whatever you want!
 
 ### Assignment 12 Real Life Demo
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643646718/video_to_markdown/images/youtube--BYqZet63wYQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/BYqZet63wYQ "video")
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643647399/video_to_markdown/images/youtube--tmZt9sCyT3U-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/tmZt9sCyT3U "video")
 * The above examples are part of assignment 12 that has 4 questions. Below are the videos for the examples
 * led blink
 * traffic light
@@ -176,7 +176,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 ## Emdedded programming with sensors
 
 ### Using Ultrasonic sensors
-![](images/arduino20.gif){: width="70%"}
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643647322/video_to_markdown/images/youtube---Yxz82od4_4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-Yxz82od4_4 "video")
 * Ultrasonic sensors measure distance form objects and we can use that to achieve certain outcomes.
 * We can make a green led light up if an object comes near to it.
 * If no object is near, the red led is lit up continously.
