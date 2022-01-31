@@ -155,7 +155,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * We create a void decode to setup the 4 different cases including a state where all are off. Tinker with the cases to make it output to whatever you want!
 
 ### Assignment 12 Real Life Demo
-![](images/blinkled.png){: width="50%"}
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643646718/video_to_markdown/images/youtube--BYqZet63wYQ-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/BYqZet63wYQ "video")
 * The above examples are part of assignment 12 that has 4 questions. Below are the videos for the examples
 * led blink
 * traffic light
@@ -168,7 +168,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * We were tasked to turn this schematic of a 555 ic circuit in tinkercad.
 * Below is a simulation of the schematic on tinkercad
 
-![](images/arduino21.mp4){: width="60%"}
+![](images/arduino18.gif){: width="60%"}
 * WHat you are seeing is basically on and off signals going off consecutively in repetitions.
 * This causes the led to blink. That is why you can see the voltage alternating between 13v and 5v.
 * This is the simulation of 555 assignment :)
