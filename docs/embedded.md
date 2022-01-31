@@ -161,7 +161,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * We were tasked to turn this schematic of a 555 ic circuit in tinkercad.
 * Below is a simulation of the schematic on tinkercad
 
-![](images/arduino18.gif){: width="40%"}
+![](images/arduino18.gif){: width="60%"}
 * WHat you are seeing is basically on and off signals going off consecutively in repetitions.
 * This causes the led to blink. That is why you can see the voltage alternating between 13v and 5v.
 * This is the simulation of 555 assignment :)
@@ -169,8 +169,12 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 ## Emdedded programming with sensors
 
 ### Using Ultrasonic sensors
+![](images/arduino20.gif){: width="70%"}
 * Ultrasonic sensors measure distance form objects and we can use that to achieve certain outcomes.
 * We can make a green led light up if an object comes near to it.
 * If no object is near, the red led is lit up continously.
-
-### Using motion sensors
+* For the code, the ultrasonic sensor measures distance time taken for the sound waves to travel to the object.
+* We then do the calculations by dividing the duration by 2 and further dividing by 29.1. This is all done in the void loop.
+* If the distance is lesser than 100mm the red led lights up. Otherwise, at normal distances it is the green led that lights up
+* I didnt include any references for serial print on the serial monitor, but at the end of my code I have given how you can use the if else statement to print out ultrasonic data on your serial monitor.,
+* Do not forget "Serial.begin(9600)". This is basically getting the serial monitor ready to recieve data as the program starts.
