@@ -119,3 +119,17 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Instead of 2 digitalWrite to turn off and on the 1 led, we will be needing 6 of it to control 3 LEDS.
 * Just add in another 4 more digitalWrite with logic "HIGH" and "LOW" along with any delay timings you like!
 * Take a look at mine :)
+
+
+#### Adding pushbutton?
+![](images/arduino15.gif)
+* Let's make it interesting. We shall add in a pushbutton switch. Now, whenever we can the LED to blink we can just press the buttons
+* If we do not press the button, the LED will not blink as it will stay "LOW".
+* For a pushbutton there are 2 states, true or false. We will use bool function ( boolean) as it switches between these 2 states
+* In order to establish a variable, it has to be done before the void setup. Thus create a variable called "sw1" and assign it to bool as "LOW" as the initial state.
+* Make sure you establish which pin the button is connected in the void setup using "pinMode".
+* Since we are not writing anything into the button, we want to read data ( true or false), so we use "digitalRead" in the void loop
+* We will be using a if-else statement to toggle commands between the "True" or "False" states.
+* In the if loop, we establish it as the command if the sw1 is "HIGH". Inside this loop enclose your blink code with "{}".
+* In the else loop, we establish it as the command for the sw1 is "LOW". We do not need to mention "LOW" as automatically known as the next possible outcome.
+* Inside the else loop, chuck in your turn off led with no delay. This makes sure your LED is off all the way as long as your button is not pressed.
