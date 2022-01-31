@@ -147,7 +147,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * We will be using count logic to count up to different cases
 
 ### Code
-![](images/blinkled.png)
+![](images/blinkled.png){: width="40%"}
 * Define the LED using any name for it
 * Establish count, runway and state integers before void setup
 * Use pinMode in void setup for LEDs and pushbutton. Use decode for the count.
