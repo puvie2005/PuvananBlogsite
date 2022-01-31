@@ -5,6 +5,9 @@ layout: default
 # Embedded Programming
 Embedded programming is basically programming embedded systems. Embedded systems refers to a computer system. A combination of a computer processor, computer memory, and input/output peripheral devices—that has a dedicated function within a larger mechanical or electronic system.
 
+## Take Note
+* At the end of this section you will find videos to Assignment 12 and Ultrasonic sensor. Do not skip it :)
+
 ## Introduction to Arduino
 For this module, we will be using Arduino Uno/Nano for our embedded programming sessions. Using a microcontroller and coding it to achieve our desired output is the gist of this page. I will be talking about the basics of the microcontroller and the code in this page.
 
