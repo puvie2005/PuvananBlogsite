@@ -48,7 +48,7 @@ Digital pins serve a similiar purpose as the Analog input pins. However, the UNO
 * Head onto the [Arduino Website](https://www.arduino.cc/en/software) to download the IDE for free and we can continue learning the basics.
 * You can also use [tinkercad](https://www.tinkercad.com/dashboard) which is a website to test out circuits and code.
 
-#### Arduino IDE
+### Arduino IDE
 ![](images/arduino3.png)
 * After downloading the IDE, this should show up. This is where you will br writing your code and uploading onto the Arduino UNO.
 * Before we go through the basics, let's setup the IDE.
@@ -71,29 +71,28 @@ Digital pins serve a similiar purpose as the Analog input pins. However, the UNO
 ### tinkercad
 I will be demonstrating various circuits and codes via tinkercad. You can try it yourself and mess around with the tinkercad!
 
-#### Basic Components
+### Basic Components
 ![](images/arduino6.png)
 * We will be using few compoents from the list you see above.
 * Breadboard- A thin plastic board used to hold electronic components
 * LEDS and resistors
 * Pushbuttons
 * Arduino UNO
-
-#### Blinking LED
+### Blinking LED
 ![](images/arduino10.jpg)
 * Create a new design on your tinkercad dashboard
 * On the right side of the screen you will find a search panel. This is where we will find our components to make our circuits
 * Search and place the following components to make our blinking LED circuit
 * Arduino UNO, LED, Breadboard and resistor(any value not too high impedance)
 
-#### Wiring
+### Wiring
 ![](images/arduino9.gif)
 * Connect the 5v and ground to the positive and negative terminals on the breadboard respectively
 * Place the led onto the working area of the breadboard.
 * connect 1 terminal of the led to positive of breadboard.
 * place the resistor perpendicular to the led and connect the other end to the ground. Now you should have a electrically working circuit.
 
-#### Coding
+### Coding
 ![](images/arduino12.gif){: width="80%"}
 * In void setup we want to establish which pin the led is connected to recieve any commands. Use the "pinMode(XX, OUTPUT)" command
 * "XX" is the pin number the led is connected to. You have to type in OUTPUT to establish output a command.
@@ -105,13 +104,13 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Place a delay(500). This turns off the LED for half a second. Since this is in void loop, this cycle will repeat causing a blinking repetition :)
 * Take note that the IDE is case-sensitive. Use CAPS for "HIGH", "LOW", "OUTPUT" and "INPUT". Note the capital "W" in digitalWrite.
 
-#### Traffic light
+### Traffic light
 ![](images/arduino13.png){: width="40%"}
 * Let us retry the previous example but with a different variation.
 * We will be adding another 2 LEDs to control a blinking process.
 * Give it a go with the experience from the previous Example
 
-#### 3 LED Coding
+### 3 LED Coding
 ![](images/arduino14.gif)
 * Essentially we are using the same logic as the previous one.
 * I have used pins 10, 8 and 9 for 3 different coloured LEDs to simulate a simple traffic light system.
@@ -120,7 +119,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * Take a look at mine :)
 
 
-#### Adding pushbutton?
+### Adding pushbutton?
 ![](images/arduino15.gif)
 * Let's make it interesting. We shall add in a pushbutton switch. Now, whenever we can the LED to blink we can just press the buttons
 * If we do not press the button, the LED will not blink as it will stay "LOW".
@@ -133,9 +132,38 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * In the else loop, we establish it as the command for the sw1 is "LOW". We do not need to mention "LOW" as automatically known as the next possible outcome.
 * Inside the else loop, chuck in your turn off led with no delay. This makes sure your LED is off all the way as long as your button is not pressed.
 
-#### Pushbutton traffic light
+### Pushbutton traffic light
 ![](images/arduino16.gif)
 * Use the previous example, but now add in a green and yellow LED
 * We have done this example previously with traffic light LEDs, however, now just use the last example to add a switch.
 * If the switch is pressed, a traffic light sequence will complete.
 * If the switch is released, the sequence will finish and all the leds will stop lighting up.
+
+## Assignment 12
+![](images/arduino17.png)
+* I have shown you the basics of LED and the pushbutton. Now we will try different sequences using both components.
+* This assignment is a continuation of the knowledge we have learnt from previous examples. Follow the sequence Below
+* All off > Red LED on > Green LED on > Yellow LED on > Red, Yellow and Green turns on consecutively and all shuts down.
+* We will be using count logic to count up to different cases
+
+### Code
+![](images/blinkled.png)
+* Define the LED using any name for it
+* Establish count, runway and state integers before void setup
+* Use pinMode in void setup for LEDs and pushbutton. Use decode for the count.
+* In our void loop we establish the states and the count system for differenr cases
+* We create a void decode to setup the 4 different cases including a state where all are off. Tinker with the cases to make it output to whatever you want!
+
+### Assignment 12 Real Life Demo
+
+## 555 timer assignment
+![](images/arduino18.gif)
+
+## Emdedded programming with sensors
+
+### Using Ultrasonic sensors
+* Ultrasonic sensors measure distance form objects and we can use that to achieve certain outcomes.
+* We can make a green led light up if an object comes near to it.
+* If no object is near, the red led is lit up continously.
+
+### Using motion sensors
