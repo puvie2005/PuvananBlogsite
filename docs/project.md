@@ -142,9 +142,10 @@ table.GeneratedTable thead {
   </tbody>
 </table>
 <!-- Codes by Quackit.com -->
-
-#### References
-* [Useless Machine](https://www.instructables.com/Arduino-Most-Useless-Machine-Ever-project/)
+#### Links to Parts
 * [Micro-Servo( 180 degrees)](https://sg.element14.com/mcm/83-17987/micro-servo-180-degree-for-arduinoraspberry/dp/2801406?st=micro%20servo)
 * [SPDT Switch](https://robot-r-us.com.sg/p/toggle-switch-3-pin-spdt-2a-250vac)
 * [On/Off( SPST ) Rocker switch](https://sg.element14.com/alcoswitch-te-connectivity/prasa1-16f-bb0bw/switch-spst-16a-125vac-black/dp/4710368?st=spst%20switch)
+
+#### References
+* [Useless Machine](https://www.instructables.com/Arduino-Most-Useless-Machine-Ever-project/)
