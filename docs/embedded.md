@@ -179,7 +179,7 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 ## Emdedded programming with sensors
 
 ### Using Ultrasonic sensors
-[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643647322/video_to_markdown/images/youtube---Yxz82od4_4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-Yxz82od4_4 "video")
+![](images/arduino20.gif){: width="60%"}
 * Ultrasonic sensors measure distance form objects and we can use that to achieve certain outcomes.
 * We can make a green led light up if an object comes near to it.
 * If no object is near, the red led is lit up continously.
@@ -188,3 +188,6 @@ I will be demonstrating various circuits and codes via tinkercad. You can try it
 * If the distance is lesser than 100mm the red led lights up. Otherwise, at normal distances it is the green led that lights up
 * I didnt include any references for serial print on the serial monitor, but at the end of my code I have given how you can use the if else statement to print out ultrasonic data on your serial monitor.,
 * Do not forget "Serial.begin(9600)". This is basically getting the serial monitor ready to recieve data as the program starts.
+
+### Ultrasonic sensor demonstration
+[![video](https://res.cloudinary.com/marcomontalbano/image/upload/v1643647322/video_to_markdown/images/youtube---Yxz82od4_4-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/-Yxz82od4_4 "video")
