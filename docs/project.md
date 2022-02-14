@@ -371,22 +371,63 @@ table.GeneratedTable thead {
 * Please try out the code and test the exact positions to get the right ones for yourself.
 
 ### Initialisation
+![](images/fp44.png){: width="50%"}
+* We will be using the servo.h libary for this code.
+* Start off by initialising the library and the 2 different servos we are using. Give them names.
+* Assign int pin to pin 2 as per our connection
+* Set the int pos to 0 and selectedmove to 0 for count in if else statement.
+* Lastly set testmove to 0 as this will intitialise the start of our code when it runs.
 
 ### Void setup
+![](images/fp45.png){: width="50%"}
+* By using pinmode function, set the switch to an input to recieve inputs.
+* The next following lines are fron the servo.h libary.
+* Servo.attach() is used to assign the pins that the servos are connected.
+* We have named at the start to intialise the servos. Use these names and servo.attach.
+* Servo.write is used to assign their intitial positions. Change them according to your box avia test and trial.
 
 ### Void loop
+![](images/fp46.png){: width="50%"}
+* The loop uses if else statements to toggle between different states.
+* By using a count system, whenever switch is pressed, different moves are toggled between
+* The total moves have been capped at 10 but you can alter it to whatever you want.
+* I have 4 different moves that i tweaked to my preferences. Each has its own void.
+* Assign each void move to a count for if else statement.
 
 ### Move 1 Logic
+![](images/fp47.png){: width="50%"}
+* I found out that the hiding position for the door is at 10 and I want to move it up to 60 degrees.
+* We use a for loop to increase the degrees in increments of 3.
+* In the loop, the first part is start position; second is final position; lastly the increment count.
+* You can use the Servo.write function to simplify your code and make the servo turn according to the pos you have set in the for loop.
+* Do the same for the arm servo.
+* You can use the for loop again to make it go back to its original position as you can see above. Remember to change the increment to a negative instead of positive or it wont work.
+* Lastly, do not forget delay in between each rotation of servo.
 
 ### Example of move 2
+![](images/fp48.png){: width="50%"}
+* The previous move was just a normal move where it turns on and off
+* I want to give it a little bit of a "behaviour". Lets make things slow!
+* You can employ the same logic from the previous example.
+* However, remember to decrease the increment. This makes thing move slow ( degrees increase slowly =  servo rotate slowly )
+* Tweak and test out and see what you like. Make sure the useless machine works thw way you like it to :)
 
-### Working Code
-
+### Working Code test
+![](images/fp49.gif){: width="50%"}
+* This is the code test in real life without the switch.
+* We observe how the arm interacts with the box.
+* Use this as an opportunity to tweak the code to position you servo and make it good!
 
 ## Assembly
-
-## Troubleshooting
+soon....
 
 ## Problems faced
+![](images/fp50.gif){: width="40%"}
+* Not enough torque was produced by the micro servo.
+* The arm length was abit too long to produce enough moment and torque to turn off the switch.
+* Even with increased speed or change in microservo, there was no difference.
+* Furthermore, because of this stoppage, it caused the servo to heat up as it coudlnt handle it.
+
+## Troubleshooting
 
 ## Final build. Working model
