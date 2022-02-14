@@ -315,9 +315,8 @@ table.GeneratedTable thead {
 
 ### Parts
 ![](images/fp37.png){: width="40%"}
-* The parts were cut and I decided to superglue the sides as a short term solutions
+* The parts were cut and I decided to superglue the sides as a short term solutions.
 * I decided to use woodglue once I headed home to join the parts with astronger bonding agent. You can use any of the 2, they both work fine.
-
 * Above are the parts I have cut.
 * We Have a total of 7 pieces with 1 of it being a movable one.
 * The pieces are as follows; 2 walls, 2 short walls, base, movable lid and stationery lid.
@@ -327,7 +326,50 @@ table.GeneratedTable thead {
 
 ## Electronics
 
+### Components required
+![](images/fp42.jpeg){: width="40%"}
+1. SG90 9G servo x2
+2. 1 toggle switch ( SPDT)
+3. 1 Rocker switch ( on/off)
+4. Resistor
+5. Jumper wires :)
+
+### Schematic and simulation
+![](images/fp41.png){: width="50%"}
+* On your servo, there are 3 wires. The brown wire goes to Ground and the wire next to it goes to Vcc/5v. The last wire goes to your digitalpin to recieve signals.
+* I have connect 5v and Ground to the respective rails on the breadboard.
+* Connect your servo that controls the door to pin 9 and the other 2 wires to 5v and Ground.
+* Same goes for your servo to turn off switch. But connect the 3rd wire to pin 10.
+* We only need 2 states in this SPDT switch. The middle pin goes to 5V.
+* Connect a resistor across the 3rd pin of the switch. The other end of the resistor is connected to Ground.
+* The resistor end that it connected to the 3rd pin must also have a connection to pin2. That should be it!
+
+![](images/fp40.gif){: width="50%"}
+* This is the simulation of the servos. Do note that tinkercad uses 180 degree servos instead continous rotation 360.
+* The door is callibrated to move to it test position whenever the program starts.
+* When the switch is pressed, it makes the servo door turn from a specified degree to another position. ( we will talk about this in the coding portion )
+* AFter the door servo does its rotation, the arm servo turns to a certain degree( TWEAK according to your box, everyones positions varies ).
+* There are different cases in this useless machine where it "behaves" differently.
+
+### How it works in real life
+![](images/fp39.jpeg){: width="50%"}
+* This is how it looks like in real life.
+* I decided to use a normal slide switch for testing purposes as it is small and serves the same purpose in the breadbaord.
+* All the 5v and ground for servos and switch have been connected to their respective rails in the front of the breadboard.
+* I used my own Arduino Uno as the given Uno is unrecognisable in the computer ports.
+
+![](images/fp43.mp4){: width="40%"}
+* This is how it works in real life.
+* You can notice the different cases it goes through.
+* Whenever I slide the slide switch, the door servo is actuated then the arm servo is actuated.
+* Once the switch is closed, it returns back to its original position.
+* The different cases are seen where it after a certain number of times pressing the switch, it behaves fast and slow and etc.
+
 ## Coding
+* There are few different cases/moves that I have tweaked to my liking.
+* I used the code to figure out the exact positions of the servos when they are hiding and when they are in action.
+* Please try out the code and test the exact positions to get the right ones for yourself.
+
 
 ## Assembly
 
