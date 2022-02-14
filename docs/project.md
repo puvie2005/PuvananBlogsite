@@ -149,3 +149,65 @@ table.GeneratedTable thead {
 
 #### References
 * [Useless Machine](https://www.instructables.com/Arduino-Most-Useless-Machine-Ever-project/)
+
+## Design sketches
+* I made a rough design of how the machine will work.
+* Below are the isometric and sectional views of the sketches.
+
+### Isometric views
+![](images/iso.jpeg){: width="60%"}
+* The isometric view shows how the box looks like in 3D view.
+* You can see the appendix on the image provided to see the relevant parts associated.
+* I want the box to be about 25 * 15 * 10 (in cm)
+### Sectional view
+![](images/section.jpeg){: width="60%"}
+* In this sectional view, you can notice how the parts are aligned
+* Do note that the second servo will be place horizontally using a mount on the vertical edge of the wall.
+* Arduino Uno along with its mini breadboard will be placed on the base of the box and requires no mounts as it lays down flat.
+
+## 3D CAD. How to do?
+
+### Full sized model
+![](images/fp1.png){: width="40%"}
+* This is how the 3D model looks like. I have made some changes from my sketch after some research and consideration
+* The dimensions have been altered to 200 * 120 * 80 ( in mm )
+
+### Parameters
+![](images/fp2.png){: width="40%"}
+* We will be using parametric modelling which is what we learned in our lasercutting section.
+* Just a recap- parametric modelling refers to making a model on existing parameters that makes changes easier in the future( my simple explanantion).
+* I have changed parameters to the above mentioned dimensions.
+* We have length, width, thickness and height. Somethign new is the nseg. It refers to the number of teeth wer prefer to have on all sides of the box. ( remember it has to be a odd number )
+
+### Designing the body
+![](images/fp3.png){: width="40%"}
+* We start off by creating the base. Use fixed parameters by clicking tab and instead of 200mm just type length. This is how parametric modelling is done.
+* Once you are done with the sketch, exit and extrude to 3mm as the wood we are lasercutting with is 3mm.
+
+![](images/fp4.png){: width="40%"}
+* Next up we can go on to the walls. Create a wall with fixed paramaters according to the length and height mentioned in parameters.
+* Remember to design your teeth on the bottom end of the 3mm of the lenght base.
+* Create it using the nseg by creating 11 equidistant rectangles in the length. Used nseg for this ( nseg/length)- hint ( for distance )
+* Extrude the wall and do not forget to extrude the teeth.
+
+![](images/fp56.png){: width="40%"}
+* You can now use the combine function using tool and object settings to attach the wall with teeth onto the base
+* We have learnt this before, you can head onto the lasercutting site to get a recap.
+* Use the copy function to copy the wall from one point to another.
+* Remember to combine the wall to the base again.
+
+## 3D Printed Parts
+
+## Lasercut Parts
+
+## Electronics
+
+## Coding
+
+## Assembly
+
+## Troubleshooting
+
+## Problems faced
+
+## Final build. Working model
