@@ -358,7 +358,7 @@ table.GeneratedTable thead {
 * All the 5v and ground for servos and switch have been connected to their respective rails in the front of the breadboard.
 * I used my own Arduino Uno as the given Uno is unrecognisable in the computer ports.
 
-![](images/fp43.gif){: width="40%"}
+![](images/fp43.gif){: width="25%"}
 * This is how it works in real life.
 * You can notice the different cases it goes through.
 * Whenever I slide the slide switch, the door servo is actuated then the arm servo is actuated.
@@ -377,6 +377,8 @@ table.GeneratedTable thead {
 * Assign int pin to pin 2 as per our connection
 * Set the int pos to 0 and selectedmove to 0 for count in if else statement.
 * Lastly set testmove to 0 as this will intitialise the start of our code when it runs.
+
+
 
 ### Void setup
 ![](images/fp45.png){: width="50%"}
@@ -413,7 +415,7 @@ table.GeneratedTable thead {
 * Tweak and test out and see what you like. Make sure the useless machine works thw way you like it to :)
 
 ### Working Code test
-![](images/fp49.gif){: width="50%"}
+![](images/fp49.gif){: width="30%"}
 * This is the code test in real life without the switch.
 * We observe how the arm interacts with the box.
 * Use this as an opportunity to tweak the code to position you servo and make it good!
@@ -422,7 +424,7 @@ table.GeneratedTable thead {
 soon....
 
 ## Problems faced
-![](images/fp50.gif){: width="40%"}
+![](images/fp50.gif){: width="25%"}
 * Not enough torque was produced by the micro servo.
 * The arm length was abit too long to produce enough moment and torque to turn off the switch.
 * Even with increased speed or change in microservo, there was no difference.
