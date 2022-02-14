@@ -155,12 +155,12 @@ table.GeneratedTable thead {
 * Below are the isometric and sectional views of the sketches.
 
 ### Isometric views
-![](images/iso.jpeg){: width="40%"}
+![](images/section.jpeg){: width="30%"}
 * The isometric view shows how the box looks like in 3D view.
 * You can see the appendix on the image provided to see the relevant parts associated.
 * I want the box to be about 25 * 15 * 10 (in cm)
 ### Sectional view
-![](images/section.jpeg){: width="40%"}
+![](images/iso.jpeg){: width="30%"}
 * In this sectional view, you can notice how the parts are aligned
 * Do note that the second servo will be place horizontally using a mount on the vertical edge of the wall.
 * Arduino Uno along with its mini breadboard will be placed on the base of the box and requires no mounts as it lays down flat.
@@ -168,67 +168,67 @@ table.GeneratedTable thead {
 ## 3D CAD. How to do?
 
 ### Full sized model
-![](images/fp2.png){: width="40%"}
+![](images/fp1.png){: width="50%"}
 * This is how the 3D model looks like. I have made some changes from my sketch after some research and consideration
 * The dimensions have been altered to 200 * 120 * 80 ( in mm )
 
 ### Parameters
-![](images/fp1.png){: width="60%"}
+![](images/fp2.png){: width="50%"}
 * We will be using parametric modelling which is what we learned in our lasercutting section.
 * Just a recap- parametric modelling refers to making a model on existing parameters that makes changes easier in the future( my simple explanantion).
 * I have changed parameters to the above mentioned dimensions.
 * We have length, width, thickness and height. Somethign new is the nseg. It refers to the number of teeth wer prefer to have on all sides of the box. ( remember it has to be a odd number )
 
 ### Designing the body
-![](images/fp3.png){: width="40%"}
+![](images/fp3.png){: width="45%"}
 * We start off by creating the base. Use fixed parameters by clicking tab and instead of 200mm just type length. This is how parametric modelling is done.
 * Once you are done with the sketch, exit and extrude to 3mm as the wood we are lasercutting with is 3mm.
 
-![](images/fp4.png){: width="40%"}
+![](images/fp4.png){: width="45%"}
 * Next up we can go on to the walls. Create a wall with fixed paramaters according to the length and height mentioned in parameters.
 * Remember to design your teeth on the bottom end of the 3mm of the lenght base.
 * Create it using the nseg by creating 11 equidistant rectangles in the length. Used nseg for this ( nseg/length)- hint ( for distance )
 * Extrude the wall and do not forget to extrude the teeth.
 
-![](images/fp56.png){: width="40%"}
+![](images/fp56.png){: width="55%"}
 * You can now use the combine function using tool and object settings to attach the wall with teeth onto the base
 * We have learnt this before, you can head onto the lasercutting site to get a recap.
 * Use the copy function to copy the wall from one point to another.
 * Remember to combine the wall to the base again.
 
-![](images/fp78.png){: width="40%"}
+![](images/fp78.png){: width="55%"}
 * Now we can sketch the side wall along the width of the box
 * Design the teeth on the box using nseg
 * Extrude the box with the 11 teeth you have made to distance of 3mm or thk for parametric modelling purposes.
 * Use combine function to combine it to the 2 wall as the tool and combine it to the base.
 * Use the copy function to make a copy of it to the other side of the box and repeat the combine function again!
 
-![](images/fp910.png){: width="50%"}
+![](images/fp910.png){: width="55%"}
 * Now we can design the lid. I have design the lid in such a way that its only 1/3 of the lenght
 * You can use parametric modelling at adjust the length of the lid to third of the length
 * Make the teeth now all on 3 sides of the 1st lid so that it can fit Well
 * Extrude the lid with its teeth and combine it to the 3 walls.
 
-![](images/fp1112.png){: width="40%"}
+![](images/fp1112.png){: width="55%"}
 * Now make the movable part of the lid, the door.
 * As we have mentioned earlier on , the first part is 1/3 so this will be 2/3 of 200mm. Dimension it using parametric modelling
 * This doesnt require any teeth as it will be a moving part
 * You have to make 2 pivots on the ends of the lid so that it can pivot on it without falling!
 * Extrude it 3mm down depending on the plane you have chosen to start your sketch.
 
-![](images/fp1314.png){: width="40%"}
+![](images/fp1314.png){: width="55%"}
 * We have created 2 pivots earlier on but there is no mount/ something to house the pivots
 * We shall make a slightly larger hole so that the square pivot can move about freely
 * Extrude the mount and make a hole to house the pivots
 * Copy the design over to the other side and join it or repeat the same sketch.
 
-![](images/fp1516.png){: width="40%"}
+![](images/fp1516.png){: width="55%"}
 * We have to mount the toggle switch so lets a make a hole for it
 * I found some dimeensions from the datasheet provided for the toggle switch i am using.
 * I made a point in the centre of the box about more tha halfway from the length of the lid.
 * Use the hole function to make a 7mm hole that is 3mm deep to make it a through hole
 
-![](images/fp171819.png){: width="50%"}
+![](images/fp171819.png){: width="55%"}
 * Now we make 2 holes. They are both identical
 * We need 2 holes for the rocker switch to turn off and on the power supply. Another hole for power supply by the barrel jack to arduino uno.
 * From my measurements both the hole for the rocker switch and the hole for the arduino uno dc power supply is the same
@@ -237,7 +237,7 @@ table.GeneratedTable thead {
 * Extrude the first hole using cut function and use the hole function to make a flat hole through the 3mm for the second point.
 
 ### Final 3D model
-![](images/fp2.png){: width="40%"}
+![](images/fp1.png){: width="50%"}
 * You should have this by the end of the 3d modelling. You cant tweak it to whatever shape or size you want as we have now used Parametric modelling.
 * We now head onto the 3d printed parts
 
@@ -246,7 +246,7 @@ table.GeneratedTable thead {
 * Below i will show you how it was done!
 
 ### Servo arm lid
-![](images/fp31.jog){: width="50%"}
+![](images/fp31.jpg){: width="40%"}
 * I used a online CAD model for the servo horn so i can directly attach it to the servo motor.
 * I created a rectangular feature aroudn it extrude it.
 * Later on i extended it by another 20mm to fit according to my box.
@@ -257,14 +257,14 @@ table.GeneratedTable thead {
 * We will slice it for 3d printing later :)
 
 ### Servo arm
-![](images/fp32.jog){: width="50%"}
+![](images/fp32.jpg){: width="50%"}
 * This servo arm is similiar to the servo arm lid.
 * I referenced it from a cad model of the servo horn
 * I adjusted the height to 12mm instead and the length to 85mm.
 * Last adjustment was the height of the arm to push button- 45mm from origin( from 0 point base )
 
 ### Servo mount 1
-![](images/fp25.jog){: width="50%"}
+![](images/fp25.jpg){: width="50%"}
 * I have dimensioned the mount according to the SG90 9g servo.
 * Dimensions can be found online on google images.
 * We first make a rectangle with a rectangular hole to mount the servo.
@@ -285,16 +285,16 @@ table.GeneratedTable thead {
 * Follow the steps in servo mount 1 and design in a way that suits your design the best.
 
 ### Slicing the Parts
-![](images/fp34.png){: width="30%"}
+![](images/fp34.png){: width="50%"}
 * The parts have been sliced and I have used similiar settings as the one I used in the Knight Chess piece.
 * It took about almost 3 hours as I printed this on 2 seperate occassions.
 
-![](images/fp35.png){: width="35%"}
+![](images/fp35.png){: width="40%"}
 * I then booked a 3D printer on T14 and printed it given in the stipulated time.
 * Print quality was good and parts came out well after waiting for the heating bed to cool down.
 
 ### Final outcome
-![](images/fp33.jpg){: width="40%"}
+![](images/fp33.jpg){: width="60%"}
 * These are the parts that I have had to 3d print.
 * The arms have been 3d printed with a thickness of 4mm
 * The servos fit well and tight into place in the mounts:)
