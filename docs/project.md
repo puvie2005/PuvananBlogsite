@@ -196,7 +196,108 @@ table.GeneratedTable thead {
 * Use the copy function to copy the wall from one point to another.
 * Remember to combine the wall to the base again.
 
+![](images/fp78.png){: width="40%"}
+* Now we can sketch the side wall along the width of the box
+* Design the teeth on the box using nseg
+* Extrude the box with the 11 teeth you have made to distance of 3mm or thk for parametric modelling purposes.
+* Use combine function to combine it to the 2 wall as the tool and combine it to the base.
+* Use the copy function to make a copy of it to the other side of the box and repeat the combine function again!
+
+![](images/fp910.png){: width="50%"}
+* Now we can design the lid. I have design the lid in such a way that its only 1/3 of the lenght
+* You can use parametric modelling at adjust the length of the lid to third of the length
+* Make the teeth now all on 3 sides of the 1st lid so that it can fit Well
+* Extrude the lid with its teeth and combine it to the 3 walls.
+
+![](images/fp1112.png){: width="40%"}
+* Now make the movable part of the lid, the door.
+* As we have mentioned earlier on , the first part is 1/3 so this will be 2/3 of 200mm. Dimension it using parametric modelling
+* This doesnt require any teeth as it will be a moving part
+* You have to make 2 pivots on the ends of the lid so that it can pivot on it without falling!
+* Extrude it 3mm down depending on the plane you have chosen to start your sketch.
+
+![](images/fp1314.png){: width="40%"}
+* We have created 2 pivots earlier on but there is no mount/ something to house the pivots
+* We shall make a slightly larger hole so that the square pivot can move about freely
+* Extrude the mount and make a hole to house the pivots
+* Copy the design over to the other side and join it or repeat the same sketch.
+
+![](images/fp1516.png){: width="40%"}
+* We have to mount the toggle switch so lets a make a hole for it
+* I found some dimeensions from the datasheet provided for the toggle switch i am using.
+* I made a point in the centre of the box about more tha halfway from the length of the lid.
+* Use the hole function to make a 7mm hole that is 3mm deep to make it a through hole
+
+![](images/fp171819.png){: width="50%"}
+* Now we make 2 holes. They are both identical
+* We need 2 holes for the rocker switch to turn off and on the power supply. Another hole for power supply by the barrel jack to arduino uno.
+* From my measurements both the hole for the rocker switch and the hole for the arduino uno dc power supply is the same
+* I initially designed a rectangle for the rocker switch but decided to use a circular rocker switch because that it what Mr Rodney provided me with.
+* Thus the hole of same diameter is made in the centre of the rectangle and another point is made beneath it.
+* Extrude the first hole using cut function and use the hole function to make a flat hole through the 3mm for the second point.
+
+### Final 3D model
+![](images/fp2.png){: width="40%"}
+* You should have this by the end of the 3d modelling. You cant tweak it to whatever shape or size you want as we have now used Parametric modelling.
+* We now head onto the 3d printed parts
+
 ## 3D Printed Parts
+* I had to design the servo arm, servo arm for door and 2 servo mounts.
+* Below i will show you how it was done!
+
+### Servo arm lid
+![](images/fp31.jog){: width="50%"}
+* I used a online CAD model for the servo horn so i can directly attach it to the servo motor.
+* I created a rectangular feature aroudn it extrude it.
+* Later on i extended it by another 20mm to fit according to my box.
+* Lastly, I made a L shaped extrusion up the arm and made a rectangular feature to push the button on toggle switch.
+
+![](images/fp30.png){: width="40%"}
+* You should have this servo arm if you followed the steps above :)
+* We will slice it for 3d printing later :)
+
+### Servo arm
+![](images/fp32.jog){: width="50%"}
+* This servo arm is similiar to the servo arm lid.
+* I referenced it from a cad model of the servo horn
+* I adjusted the height to 12mm instead and the length to 85mm.
+* Last adjustment was the height of the arm to push button- 45mm from origin( from 0 point base )
+
+### Servo mount 1
+![](images/fp25.jog){: width="50%"}
+* I have dimensioned the mount according to the SG90 9g servo.
+* Dimensions can be found online on google images.
+* We first make a rectangle with a rectangular hole to mount the servo.
+* Extrude it by 3mm and make another rectangle to extrude so that we can make it longer than the servo to let it lay flat.
+* We make another rectangle on the end of the length and extrude it up to form a L bracket.
+* Include holes of 2mm on the rectangular hole to mount the servos
+* Iclude 3.2mm hole to screw in the mount to the wood of 3mm.
+
+![](images/fp20.png){: width="40%"}
+* You should have this servo mount for 1 servo, servo door.
+* We can slice it later on to print it.
+
+### Servo mount 2
+![](images/fp26.png){: width="40%"}
+* This is the .stl file view of the mount in fusion.
+* This servo mount is similiar to the first. It just doesnt have a L bracket to mount on walls
+* We will instead put 2 3.2mm holes on the base so that we can screw it flat onto the base of the box.
+* Follow the steps in servo mount 1 and design in a way that suits your design the best.
+
+### Slicing the Parts
+![](images/fp34.png){: width="30%"}
+* The parts have been sliced and I have used similiar settings as the one I used in the Knight Chess piece.
+* It took about almost 3 hours as I printed this on 2 seperate occassions.
+
+![](images/fp35.png){: width="35%"}
+* I then booked a 3D printer on T14 and printed it given in the stipulated time.
+* Print quality was good and parts came out well after waiting for the heating bed to cool down.
+
+### Final outcome
+![](images/fp33.jpg){: width="40%"}
+* These are the parts that I have had to 3d print.
+* The arms have been 3d printed with a thickness of 4mm
+* The servos fit well and tight into place in the mounts:)
 
 ## Lasercut Parts
 
