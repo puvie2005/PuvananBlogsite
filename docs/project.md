@@ -300,6 +300,30 @@ table.GeneratedTable thead {
 * The servos fit well and tight into place in the mounts:)
 
 ## Lasercut Parts
+* First create a sketch on each of the side by clicking on it and create sketch in fusion.
+* Right click on the empty sketch you have just created and export to dxf.
+* It should take a while but now its done and you can import in your CorelDraw and start cutting.
+
+### Booking lasercutter
+![](images/fp38.png){: width="40%"}
+* I booked a lasercutter to cut out all the dxf files I have exported from fusion.
+* All the parts were cut in T1442 lasercutter on a 3mm wood.
+* Time took about 30min from setting up to inmporting files and cutting it.
+* I missed out 1 piece which was the lid and thus took an extra 5min to cut.
+
+### Settings
+
+### Parts
+![](images/fp37.png){: width="40%"}
+* The parts were cut and I decided to superglue the sides as a short term solutions
+* I decided to use woodglue once I headed home to join the parts with astronger bonding agent. You can use any of the 2, they both work fine.
+
+* Above are the parts I have cut.
+* We Have a total of 7 pieces with 1 of it being a movable one.
+* The pieces are as follows; 2 walls, 2 short walls, base, movable lid and stationery lid.
+
+### Lasercutter in action!
+![](images/fp36.ranginf){: width="40%"}
 
 ## Electronics
 
