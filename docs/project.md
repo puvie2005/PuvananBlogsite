@@ -252,12 +252,12 @@ table.GeneratedTable thead {
 * Later on i extended it by another 20mm to fit according to my box.
 * Lastly, I made a L shaped extrusion up the arm and made a rectangular feature to push the button on toggle switch.
 
-![](images/fp30.png){: width="35%"}
+![](images/fp30.png){: width="25%"}
 * You should have this servo arm if you followed the steps above :)
 * We will slice it for 3d printing later :)
 
 ### Servo arm
-![](images/fp32.png){: width="40%"}
+![](images/fp32.png){: width="25%"}
 * This servo arm is similiar to the servo arm lid.
 * I referenced it from a cad model of the servo horn
 * I adjusted the height to 12mm instead and the length to 85mm.
@@ -273,12 +273,12 @@ table.GeneratedTable thead {
 * Include holes of 2mm on the rectangular hole to mount the servos
 * Iclude 3.2mm hole to screw in the mount to the wood of 3mm.
 
-![](images/fp20.png){: width="40%"}
+![](images/fp20.png){: width="30%"}
 * You should have this servo mount for 1 servo, servo door.
 * We can slice it later on to print it.
 
 ### Servo mount 2
-![](images/fp26.png){: width="40%"}
+![](images/fp26.png){: width="30%"}
 * This is the .stl file view of the mount in fusion.
 * This servo mount is similiar to the first. It just doesnt have a L bracket to mount on walls
 * We will instead put 2 3.2mm holes on the base so that we can screw it flat onto the base of the box.
@@ -323,7 +323,7 @@ table.GeneratedTable thead {
 * The pieces are as follows; 2 walls, 2 short walls, base, movable lid and stationery lid.
 
 ### Lasercutter in action!
-![](images/fp36.ranginf){: width="40%"}
+![](images/fp36.gif){: width="40%"}
 
 ## Electronics
 
