@@ -252,12 +252,12 @@ table.GeneratedTable thead {
 * Later on i extended it by another 20mm to fit according to my box.
 * Lastly, I made a L shaped extrusion up the arm and made a rectangular feature to push the button on toggle switch.
 
-![](images/fp30.png){: width="40%"}
+![](images/fp30.png){: width="35%"}
 * You should have this servo arm if you followed the steps above :)
 * We will slice it for 3d printing later :)
 
 ### Servo arm
-![](images/fp32.jpg){: width="50%"}
+![](images/fp32.png){: width="40%"}
 * This servo arm is similiar to the servo arm lid.
 * I referenced it from a cad model of the servo horn
 * I adjusted the height to 12mm instead and the length to 85mm.
