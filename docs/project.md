@@ -4,7 +4,7 @@ layout: default
 
 # Final Project
 
-After almost 2 terms of learning various skills ranginf from lasercutting to embedded programming, we were tasked to take on a final project. In this final project, we are to integrate 3D printing, CAD software skills and lasercutting with electronics to create a simple project. This project requires a certain level of planning and fabrication too. We are only given 3 weeks thus I went on for a simple idea. Read to find out more about my final project!
+After almost 2 terms of learning various skills ranging from lasercutting to embedded programming, we were tasked to take on a final project. In this final project, we are to integrate 3D printing, CAD software skills and lasercutting with electronics to create a simple project. This project requires a certain level of planning and fabrication too. We are only given 3 weeks thus I went on for a simple idea. Read to find out more about my final project!
 
 ## My Sisyphean Machine
 
@@ -431,5 +431,7 @@ soon....
 * Furthermore, because of this stoppage, it caused the servo to heat up as it coudlnt handle it.
 
 ## Troubleshooting
+soon....
 
 ## Final build. Working model
+soon...
