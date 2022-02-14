@@ -352,13 +352,13 @@ table.GeneratedTable thead {
 * There are different cases in this useless machine where it "behaves" differently.
 
 ### How it works in real life
-![](images/fp39.jpeg){: width="50%"}
+![](images/fp39.jpg){: width="50%"}
 * This is how it looks like in real life.
 * I decided to use a normal slide switch for testing purposes as it is small and serves the same purpose in the breadbaord.
 * All the 5v and ground for servos and switch have been connected to their respective rails in the front of the breadboard.
 * I used my own Arduino Uno as the given Uno is unrecognisable in the computer ports.
 
-![](images/fp43.mp4){: width="40%"}
+![](images/fp43.gif){: width="40%"}
 * This is how it works in real life.
 * You can notice the different cases it goes through.
 * Whenever I slide the slide switch, the door servo is actuated then the arm servo is actuated.
@@ -369,6 +369,18 @@ table.GeneratedTable thead {
 * There are few different cases/moves that I have tweaked to my liking.
 * I used the code to figure out the exact positions of the servos when they are hiding and when they are in action.
 * Please try out the code and test the exact positions to get the right ones for yourself.
+
+### Initialisation
+
+### Void setup
+
+### Void loop
+
+### Move 1 Logic
+
+### Example of move 2
+
+### Working Code
 
 
 ## Assembly
