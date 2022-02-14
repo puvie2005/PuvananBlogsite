@@ -155,12 +155,12 @@ table.GeneratedTable thead {
 * Below are the isometric and sectional views of the sketches.
 
 ### Isometric views
-![](images/iso.jpeg){: width="60%"}
+![](images/iso.jpeg){: width="40%"}
 * The isometric view shows how the box looks like in 3D view.
 * You can see the appendix on the image provided to see the relevant parts associated.
 * I want the box to be about 25 * 15 * 10 (in cm)
 ### Sectional view
-![](images/section.jpeg){: width="60%"}
+![](images/section.jpeg){: width="40%"}
 * In this sectional view, you can notice how the parts are aligned
 * Do note that the second servo will be place horizontally using a mount on the vertical edge of the wall.
 * Arduino Uno along with its mini breadboard will be placed on the base of the box and requires no mounts as it lays down flat.
@@ -168,12 +168,12 @@ table.GeneratedTable thead {
 ## 3D CAD. How to do?
 
 ### Full sized model
-![](images/fp1.png){: width="40%"}
+![](images/fp2.png){: width="40%"}
 * This is how the 3D model looks like. I have made some changes from my sketch after some research and consideration
 * The dimensions have been altered to 200 * 120 * 80 ( in mm )
 
 ### Parameters
-![](images/fp2.png){: width="40%"}
+![](images/fp1.png){: width="60%"}
 * We will be using parametric modelling which is what we learned in our lasercutting section.
 * Just a recap- parametric modelling refers to making a model on existing parameters that makes changes easier in the future( my simple explanantion).
 * I have changed parameters to the above mentioned dimensions.
