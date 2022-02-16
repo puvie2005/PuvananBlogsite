@@ -324,6 +324,7 @@ table.GeneratedTable thead {
 ![](images/fp53.png){: width="50%"}
 * The above settings are callibrated for the Lasercutter used in T1442
 * After importing your file, we have to change the outlines to red hairline as this is recognised in the printer settings for cut.
+* Choose the 3mm plywood board ( for my box anyways )
 * Place your part and adjust the pointer to a free space on the wooden board.
 * You can then move your parts on the software to the pointer using " move to pointer".
 * Make sure the board isnt wobbly. If all is set, you are ready to cut. Just click the start button!
@@ -484,5 +485,15 @@ table.GeneratedTable thead {
 * Instead of wasting filament, I used an attachment which helped to push the switch further.
 * Did not waste parts and time :)
 
-## Final build. Working model
-![](images/fp60.gif){: width="20%"}
+## Working model
+![](images/fp60.gif){: width="25%"}
+
+## Modes
+
+### Switch_off
+
+### Crazyslow
+
+### Crazydoor
+
+### Matrix
