@@ -297,6 +297,7 @@ table.GeneratedTable thead {
 * Support was required for the mount but the rest did not require and thus I used skirt instead.
 * Other values were set to default.
 
+### Booking 3D printer
 ![](images/fp35.png){: width="40%"}
 * I then booked a 3D printer on T14 and printed it given in the stipulated time.
 * Print quality was good and parts came out well after waiting for the heating bed to cool down.
@@ -308,6 +309,8 @@ table.GeneratedTable thead {
 * The servos fit well and tight into place in the mounts:)
 
 ## Lasercutting
+
+## Export your sketches
 ![](images/fp54.png){: width="40%"}
 * First create a sketch on each of the side by clicking on it and create sketch in fusion.
 * Right click on the empty sketch you have just created and export to dxf.
@@ -491,9 +494,26 @@ table.GeneratedTable thead {
 ## Modes
 
 ### Switch_off
+![](images/switch.gif){: width="25%"}
+* Simple push and hide mode
+* Door moves from position 0 to 60 and back again
+* Arm moves from 130 to 0 and back again
+* This is the start mode when switch is pressed.\
 
 ### Crazyslow
+![](images/slow.gif){: width="25%"}
+* Code is similar to Switch_off
+* Instead of going normal speed, it irritates the user by going very very very very slow.
+* when it returns it goes slow, but on th return, the door shuts you off fast.
 
 ### Crazydoor
+![](images/crazy.gif){: width="25%"}
+* Crazy door employs similar code to the Switch_off too.
+* However, it fakes the user by turning off, but it hides back in.
+* As the user thinks that their input is successful, the machine renders it futile!
 
 ### Matrix
+![](images/matrix.gif){: width="25%"}
+* Matrix is basically similar to crazydoor but employs the function differently.
+
+## Video Submission
