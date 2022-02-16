@@ -494,7 +494,7 @@ table.GeneratedTable thead {
 ## Modes
 
 ### Switch_off
-![](images/switch.gif){: width="25%"}
+![](images/off.gif){: width="25%"}
 * Simple push and hide mode
 * Door moves from position 0 to 60 and back again
 * Arm moves from 130 to 0 and back again
