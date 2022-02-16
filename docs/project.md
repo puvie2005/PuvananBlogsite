@@ -452,7 +452,7 @@ table.GeneratedTable thead {
 * Furthermore, because of this stoppage, it caused the servo to heat up as it coudlnt handle it.
 
 ### 2.Weak mount
-![](images/fp57.jpeg){: width="40%"}
+![](images/fp57.jpeg){: width="25%"}
 * The mount for the door servo was wobbly.
 * It didnt have enough support and it gave away at times.
 * Since it was weak, the servo tend to droop down affecting the position of the arm and the degree it turns. Which has to be changed via code.
@@ -473,13 +473,13 @@ table.GeneratedTable thead {
 * Did not have to make much changes. I only had design 1 part and lasercut it. Instead of a hole, i changed it to a 11mm by 6mm rectangle to screw the switch.
 
 ### 2. Stronger mount
-![](images/fp55.jpeg){: width="40%"}
+![](images/fp55.jpeg){: width="30%"}
 * I extruded the L bracket down to create even more support.
 * Only issue that I faced was requiring more support than the previous mount.
 * Luckily, support came off easily and the mount is much stronger and can support high torque and force from servo to door.
 
 ### 3. Arm Feature
-![](images/fp56.jpeg){: width="40%"}
+![](images/fp56.jpeg){: width="30%"}
 * I had a rectangular extrude 3D printed to add onto the existing arm.
 * Instead of wasting filament, I used an attachment which helped to push the switch further.
 * Did not waste parts and time :)
