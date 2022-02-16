@@ -7,6 +7,7 @@ layout: default
 After almost 2 terms of learning various skills ranging from lasercutting to embedded programming, we were tasked to take on a final project. In this final project, we are to integrate 3D printing, CAD software skills and lasercutting with electronics to create a simple project. This project requires a certain level of planning and fabrication too. We are only given 3 weeks thus I went on for a simple idea. Read to find out more about my final project!
 
 ## My Sisyphean Machine
+![](images/fp61.png){: width="50%"}
 
 ### What does it mean?
 Well the word Sysiphean is just a synonym for the word useless.I chose this because I'm going to be making a useless machine! More importantly, it relates to a task not being completed.
@@ -286,8 +287,15 @@ table.GeneratedTable thead {
 
 ### Slicing the Parts
 ![](images/fp34.png){: width="50%"}
-* The parts have been sliced and I have used similiar settings as the one I used in the Knight Chess piece.
-* It took about almost 3 hours as I printed this on 2 seperate occassions.
+* The parts have been sliced and I have used similar settings as the one I used in the Knight Chess piece.
+* It took about almost 3 hours as I printed this on 2 separate occasions.
+
+### Settings
+![](images/fp51.gif){: width="45%"}
+* These are the settings used for printing the mounts and the arm.
+* I used a print speed of 60 with 60% infill density.
+* Support was required for the mount but the rest did not require and thus I used skirt instead.
+* Other values were set to default.
 
 ![](images/fp35.png){: width="40%"}
 * I then booked a 3D printer on T14 and printed it given in the stipulated time.
@@ -299,7 +307,8 @@ table.GeneratedTable thead {
 * The arms have been 3d printed with a thickness of 4mm
 * The servos fit well and tight into place in the mounts:)
 
-## Lasercut Parts
+## Lasercutting
+![](images/fp54.png){: width="40%"}
 * First create a sketch on each of the side by clicking on it and create sketch in fusion.
 * Right click on the empty sketch you have just created and export to dxf.
 * It should take a while but now its done and you can import in your CorelDraw and start cutting.
@@ -312,11 +321,19 @@ table.GeneratedTable thead {
 * I missed out 1 piece which was the lid and thus took an extra 5min to cut.
 
 ### Settings
+![](images/fp53.png){: width="50%"}
+* The above settings are callibrated for the Lasercutter used in T1442
+* After importing your file, we have to change the outlines to red hairline as this is recognised in the printer settings for cut.
+* Place your part and adjust the pointer to a free space on the wooden board.
+* You can then move your parts on the software to the pointer using " move to pointer".
+* Make sure the board isnt wobbly. If all is set, you are ready to cut. Just click the start button!
 
 ### Parts
 ![](images/fp37.png){: width="40%"}
 * The parts were cut and I decided to superglue the sides as a short term solutions.
 * I decided to use woodglue once I headed home to join the parts with astronger bonding agent. You can use any of the 2, they both work fine.
+
+![](images/fp52.jpeg){: width="40%"}
 * Above are the parts I have cut.
 * We Have a total of 7 pieces with 1 of it being a movable one.
 * The pieces are as follows; 2 walls, 2 short walls, base, movable lid and stationery lid.
@@ -421,17 +438,51 @@ table.GeneratedTable thead {
 * Use this as an opportunity to tweak the code to position you servo and make it good!
 
 ## Assembly
-soon....
+![](images/fp59.gif){: width="30%"}
+* This is the assembly video of all the lasercut components.
+* It is sped so you wont be wasting your time!
 
 ## Problems faced
-![](images/fp50.gif){: width="25%"}
+
+### 1.Insufficient torque
+![](images/fp50.gif){: width="30%"}
 * Not enough torque was produced by the micro servo.
 * The arm length was abit too long to produce enough moment and torque to turn off the switch.
 * Even with increased speed or change in microservo, there was no difference.
 * Furthermore, because of this stoppage, it caused the servo to heat up as it coudlnt handle it.
 
+### 2.Weak mount
+![](images/fp57.jpeg){: width="40%"}
+* The mount for the door servo was wobbly.
+* It didnt have enough support and it gave away at times.
+* Since it was weak, the servo tend to droop down affecting the position of the arm and the degree it turns. Which has to be changed via code.
+* A better way to design this would be to use 90 degrees down extrude or a Rib/web.
+
+### 3.Not enough surface area
+* The servo arm was long enough but the feature that helps push the switch was extruded up.
+* Since it extruded up, it couldnt cover any area below which might also be a reason for not turning off the switch.
+* Even after changing to a slide switch from a toggle switch, the torque was sufficient but surface area covered wasn't enough.
+
 ## Troubleshooting
-soon....
+
+### 1. Torque fixed
+![](images/fp58.gif){: width="30%"}
+* The toggle switch was tight.
+* Even after oiling it, it wasnt smooth.
+* I switched to a slide switch. It is much smoother and easier to push.
+* Did not have to make much changes. I only had design 1 part and lasercut it. Instead of a hole, i changed it to a 11mm by 6mm rectangle to screw the switch.
+
+### 2. Stronger mount
+![](images/fp55.jpeg){: width="40%"}
+* I extruded the L bracket down to create even more support.
+* Only issue that I faced was requiring more support than the previous mount.
+* Luckily, support came off easily and the mount is much stronger and can support high torque and force from servo to door.
+
+### 3. Arm Feature
+![](images/fp56.jpeg){: width="40%"}
+* I had a rectangular extrude 3D printed to add onto the existing arm.
+* Instead of wasting filament, I used an attachment which helped to push the switch further.
+* Did not waste parts and time :)
 
 ## Final build. Working model
-soon...
+![](images/fp60.gif){: width="30%"}
