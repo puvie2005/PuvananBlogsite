@@ -455,8 +455,7 @@ table.GeneratedTable thead {
 * Below is my code that I have used for My Sysiphean Machine.
 * I have explained the code above and refer to that if you have any problems!
 * Remember to tweak the servo positions to however you like.
-
-  <code>
+```
   #include <Servo.h>
   Servo doorServo;
   Servo handServo;
@@ -653,8 +652,7 @@ table.GeneratedTable thead {
       delay(25);                                      
       }
    }
-  </code>
-
+```
 
 ## Assembly
 ![](images/fp59.gif){: width="30%"}
