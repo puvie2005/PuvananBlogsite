@@ -397,7 +397,7 @@ table.GeneratedTable thead {
 * The different cases are seen where it after a certain number of times pressing the switch, it behaves fast and slow and etc.
 
 ## Coding
-* There are few different cases/moves that I have tweaked to my liking.
+* There are few different cases/moves that I have tweaked to my liking. This code is referenced from a fellow [instructable user](https://www.instructables.com/How-to-build-another-useless-machine-easy-to-make-/)
 * I used the code to figure out the exact positions of the servos when they are hiding and when they are in action.
 * Please try out the code and test the exact positions to get the right ones for yourself.
 
@@ -456,7 +456,6 @@ table.GeneratedTable thead {
 * I have explained the code above and refer to that if you have any problems!
 * Remember to tweak the servo positions to however you like.
 
-<pre>
   <code>
   #include <Servo.h>
   Servo doorServo;
@@ -655,7 +654,6 @@ table.GeneratedTable thead {
       }
    }
   </code>
-</pre>
 
 
 ## Assembly
@@ -707,30 +705,5 @@ table.GeneratedTable thead {
 
 ## Working model
 ![](images/fp60.gif){: width="25%"}
-
-## Modes
-
-### Switch_off
-![](images/off.gif){: width="25%"}
-* Simple push and hide mode
-* Door moves from position 0 to 60 and back again
-* Arm moves from 130 to 0 and back again
-* This is the start mode when switch is pressed.\
-
-### Crazyslow
-![](images/slow.gif){: width="25%"}
-* Code is similar to Switch_off
-* Instead of going normal speed, it irritates the user by going very very very very slow.
-* when it returns it goes slow, but on th return, the door shuts you off fast.
-
-### Crazydoor
-![](images/crazy.gif){: width="25%"}
-* Crazy door employs similar code to the Switch_off too.
-* However, it fakes the user by turning off, but it hides back in.
-* As the user thinks that their input is successful, the machine renders it futile!
-
-### Matrix
-![](images/matrix.gif){: width="25%"}
-* Matrix is basically similar to crazydoor but employs the function differently.
 
 ## Video Submission
