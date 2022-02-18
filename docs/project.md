@@ -257,6 +257,7 @@ table.GeneratedTable thead {
 ![](images/fp30.png){: width="25%"}
 * You should have this servo arm if you followed the steps above :)
 * We will slice it for 3d printing later :)
+* You can download the 3D model from [here](https://a360.co/3gTjAvB)
 
 ### Servo arm
 ![](images/fp32.png){: width="25%"}
@@ -264,6 +265,7 @@ table.GeneratedTable thead {
 * I referenced it from a cad model of the servo horn
 * I adjusted the height to 12mm instead and the length to 85mm.
 * Last adjustment was the height of the arm to push button- 45mm from origin( from 0 point base )
+* You can download the 3D model from [here](https://a360.co/3gYDTbf)
 
 ### Servo mount 1
 ![](images/fp25.jpg){: width="50%"}
@@ -278,6 +280,7 @@ table.GeneratedTable thead {
 ![](images/fp20.png){: width="30%"}
 * You should have this servo mount for 1 servo, servo door.
 * We can slice it later on to print it.
+* You can download the 3D model from [here](https://a360.co/3LIpb6k)
 
 ### Servo mount 2
 ![](images/fp26.png){: width="30%"}
@@ -316,6 +319,11 @@ table.GeneratedTable thead {
 * First create a sketch on each of the side by clicking on it and create sketch in fusion.
 * Right click on the empty sketch you have just created and export to dxf.
 * It should take a while but now its done and you can import in your CorelDraw and start cutting.
+* You can also download the .dxf files from the following link
+
+<a href="Downloads.7z" download="dxf">
+  <img src="images/fp33.jpg" alt="model" width="104" height="142">
+</a>
 
 ### Booking lasercutter
 ![](images/fp38.png){: width="40%"}
