@@ -340,7 +340,7 @@ table.GeneratedTable thead {
 ![](images/fp37.png){: width="40%"}
 * The parts were cut and I decided to superglue the sides as a short term solutions.
 * I decided to use woodglue once I headed home to join the parts with a stronger bonding agent. You can use any of the 2, they both work fine.
-* You can also download the .dxf files from the following link. Its a zip file so unzip it !
+* You can also download the .dxf files from the following link by clicking on the image. Its a zip file so unzip it !
 
 <a href="Downloads.7z" download="dxf">
   <img src="images/fp1.png" alt="model" width="200" height="200">
