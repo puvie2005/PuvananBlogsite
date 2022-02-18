@@ -322,7 +322,7 @@ table.GeneratedTable thead {
 * You can also download the .dxf files from the following link
 
 <a href="Downloads.7z" download="dxf">
-  <img src="images/fp33.jpg" alt="model" width="104" height="142">
+  <img src="images/fp1.png" alt="model" width="200" height="200">
 </a>
 
 ### Booking lasercutter
