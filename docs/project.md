@@ -265,7 +265,7 @@ table.GeneratedTable thead {
 * I referenced it from a cad model of the servo horn
 * I adjusted the height to 12mm instead and the length to 85mm.
 * Last adjustment was the height of the arm to push button- 45mm from origin( from 0 point base )
-* You can download the 3D model from [here](https://a360.co/3gYDTbf)
+* You can download the 3D model from [here](https://a360.co/3gYDTbf).
 
 ### Servo mount 1
 ![](images/fp25.jpg){: width="50%"}
@@ -280,7 +280,7 @@ table.GeneratedTable thead {
 ![](images/fp20.png){: width="30%"}
 * You should have this servo mount for 1 servo, servo door.
 * We can slice it later on to print it.
-* You can download the 3D model from [here](https://a360.co/3LIpb6k)
+* You can download the 3D model from [here](https://a360.co/3LIpb6k).
 
 ### Servo mount 2
 ![](images/fp26.png){: width="30%"}
