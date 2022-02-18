@@ -430,10 +430,10 @@ table.GeneratedTable thead {
 ### Example of move 2
 ![](images/fp48.png){: width="50%"}
 * The previous move was just a normal move where it turns on and off
-* I want to give it a little bit of a "behaviour". Lets make things slow!
+* I want to give it a little bit of a "behavior". Lets make things slow!
 * You can employ the same logic from the previous example.
 * However, remember to decrease the increment. This makes thing move slow ( degrees increase slowly =  servo rotate slowly )
-* Tweak and test out and see what you like. Make sure the useless machine works thw way you like it to :)
+* Tweak and test out and see what you like. Make sure the useless machine works the way you like it to
 
 ### Working Code test
 ![](images/fp49.gif){: width="30%"}
@@ -441,10 +441,215 @@ table.GeneratedTable thead {
 * We observe how the arm interacts with the box.
 * Use this as an opportunity to tweak the code to position you servo and make it good!
 
+### My code
+* Below is my code that I have used for My Sysiphean Machine.
+* I have explained the code above and refer to that if you have any problems!
+* Remember to tweak the servo positions to however you like.
+
+```
+#include <Servo.h>
+Servo doorServo;
+Servo handServo;
+
+int switch_pin = 2;               //set switch on pin 2
+int pos = 0;
+int selectedMove = 0;             //move selector
+int Testmove = 0;                 //test mode: set to move number to test only one selected move
+                                  //(set to Zero to run normally i.e: roundrobbin on amm moves)
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(switch_pin, INPUT);
+  doorServo.attach(9);           //set door servo on Pin 9 pwm
+  handServo.attach(10);          //set hand servo on Pin 10 pwm
+  doorServo.write(0);           //set door to hiding position
+  handServo.write(0);            //set hand to hiding position  
+}
+
+
+void loop()
+{
+if (Testmove != 0) {
+selectedMove = Testmove;
+}
+
+  //if the switch is on, then move door and hand to switch it off...
+  if(digitalRead(switch_pin) == HIGH)
+  {
+
+  if (selectedMove > 10) { selectedMove = 0; } //when all moves are played, repeat the moves from beginning
+
+  if (selectedMove == 0) { switchoff(); }
+  else if (selectedMove == 1) { switchoff(); }   
+  else if (selectedMove == 2) { crazydoor(); }
+  else if (selectedMove == 3) { switchoff(); }
+  else if (selectedMove == 4) { crazyslow(); }
+  else if (selectedMove == 5) { matrix(); }
+
+  if (Testmove == 0) {
+  selectedMove++;         //swith to next move if not in test mode
+  }
+
+}
+}
+
+
+
+// Library of moves
+
+    // basic move 1
+   void switchoff()
+   {    
+//Moving door
+    for(pos = 0; pos < 60; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+
+    //Moving hand
+    for(pos = 130; pos >= 10; pos -= 4)  
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }  
+
+    //hiding hand
+    for(pos = 10; pos<130; pos+=4)      
+    {                                
+    handServo.write(pos);               
+    delay(15);                        
+    }
+
+    //hiding door
+    for(pos = 60; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                      
+    }
+   }    
+
+
+  //move 3: open door then close it many times, wait, then quickly reoprn a nd switch off and hide.
+
+   void crazydoor()
+  {
+     //Moving door
+    for(pos = 0; pos < 60; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+    delay(800);
+    //Moving hand
+    for(pos = 130; pos >= 80; pos -= 4)
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }
+    delay(1000);
+    for(pos = 80; pos >= 50; pos -= 4)  
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }    
+
+    //hiding hand
+    for(pos = 50; pos<130; pos+=4)      
+    {                                
+    handServo.write(pos);               
+    delay(15);                        
+    }
+
+    //hiding door
+    for(pos = 60; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                 
+    }
+   }    
+
+
+  // move 4: open door, then move hand very slowly forward and back to hiding very slowly, then quickly close door
+ void crazyslow()
+ {
+ //Moving door
+    for(pos = 0; pos < 60; pos += 1)   
+    {                                   
+    doorServo.write(pos);              
+    delay(30);                       
+    }
+
+    //Moving hand
+    for(pos = 130; pos >= 10; pos -=1)  
+    {                                   
+    handServo.write(pos);               
+    delay(30);                       
+    }  
+
+    //hiding hand
+    for(pos = 10; pos<130; pos+=1)      
+    {                                
+    handServo.write(pos);               
+    delay(30);                        
+    }
+
+    //hiding door
+    for(pos = 60; pos>=30; pos-=0.5)     
+    {                                
+    doorServo.write(pos);              
+    delay(30);                      
+    }
+    delay(500);
+    for(pos = 20; pos>=0; pos-=4)     
+    {                                
+    doorServo.write(pos);              
+    delay(15);                      
+    }    
+ }
+ void matrix()
+ {
+   //Moving door
+     for(pos = 0; pos < 60; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+
+    //Moving hand
+    for(pos = 130; pos >= 90; pos -= 4)  
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }
+
+    for(pos = 90; pos >= 50; pos -= 1)  
+    {                                   
+    handServo.write(pos);               
+    delay(30);                       
+    }  
+    delay(300);
+
+    for(pos = 55; pos<130; pos+=4)      
+    {                                
+    handServo.write(pos);               
+    delay(10);                        
+    }
+
+    //hiding door
+    for(pos = 60; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                                      
+    }
+ }
+
+```
+
 ## Assembly
 ![](images/fp59.gif){: width="30%"}
 * This is the assembly video of all the lasercut components.
-* It is sped so you wont be wasting your time!
+* It is sped up so you wont be wasting your time!
 
 ## Problems faced
 
