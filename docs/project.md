@@ -240,6 +240,7 @@ table.GeneratedTable thead {
 ### Final 3D model
 ![](images/fp1.png){: width="50%"}
 * You should have this by the end of the 3d modelling. You cant tweak it to whatever shape or size you want as we have now used Parametric modelling.
+* You can download the fusion360 file of this CAD model through this [link](https://a360.co/3uTnZHk). Dont forget to enter the password "Sysiphean".
 * We now head onto the 3d printed parts
 
 ## 3D Printed Parts
