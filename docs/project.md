@@ -353,6 +353,7 @@ table.GeneratedTable thead {
 * Above are the parts I have cut.
 * We Have a total of 7 pieces with 1 of it being a movable one.
 * The pieces are as follows; 2 walls, 2 short walls, base, movable lid and stationery lid.
+* The 2 circular pieces were obtained from making holes in the wall for the switch. I intend to use this as my stopper for both ends of the lid so that they dont fall right through.
 
 ### Laser cutter in action!
 ![](images/fp36.gif){: width="40%"}
@@ -471,7 +472,7 @@ table.GeneratedTable thead {
 <a href="puvie-code/puvie-code.ino" download="code">
   <img src="images/fp63.png" alt="model" width="200" height="200">
 </a>
-* This is my code that I have used for My Sisyphean Machine.
+* This is my code that I have used for My Sisyphean Machine. Click on the arduino image to download the file.
 * I have explained the code above and refer to that if you have any problems!
 * Remember to tweak the servo positions to however you like.
 * The above code I have provided consists of 4 different moves.
@@ -491,14 +492,14 @@ table.GeneratedTable thead {
 * It is sped up so you wont be wasting your time!
 
 ### Adding the switch
-![](images/fp66.png){: width="25%"}
+![](images/fp66.png){: width="30%"}
 * After assembling the main housing, we can add in thr switch and hook it up to our breadboard.
 * I screwed the switch onto the hole. This is using the updated slide switch instead od toggle switch based on problems faced in the next sections.
 * I used jumper wires to hook up the 2/3 terminals of the switch to the breadboard. 1 to 5v abd 1 to pin2
 * It is better to solder then hooking the jumper wires like the way I did.
 
 ### Mounting the servos.
-![](images/fp68.png){: width="25%"}
+![](images/fp68.png){: width="30%"}
 * I first superglued the door servo mount onto the far top right of the box( close to the pivot of the lid )
 * This was the best spot for my door servo to move and it was right for the 0 degree position of the servo.
 * I later proceeded to mount the main servo mount in the left of the box.
@@ -507,7 +508,7 @@ table.GeneratedTable thead {
 * Please give some space between the door servo and main servo or they might clash when they both return back( if your move does that )
 
 ### UNO, breadboard & wiring
-![](images/fp70.jpeg){: width="25%"}
+![](images/fp70.jpeg){: width="30%"}
 * I lastly added the breadboard underneath the lid that holds the switch.
 * Since there was space constraint, the UNO had to placed vertically as if it was placed horizontally it hits the servo arm and prevents it from moving.
 * The wires were all scattered all over the place > so I used double-sided tape to position the wires to the wall.
