@@ -404,6 +404,12 @@ table.GeneratedTable thead {
 * I used the code to figure out the exact positions of the servos when they are hiding and when they are in action.
 * Please try out the code and test the exact positions to get the right ones for yourself.
 
+### Transferring to Arduino Nano
+![](images/fp72.png){: width="30%"}
+* If you intend to use a Nano instead, please change the board used in Arduino so that you can compile and upload.
+* Head onto tools > board > change from Arduino Uno to Arduino Nano.
+* If this isn't done, the software cannot compile and send to the nano as it not is recognised in the device( laptop/computer ).
+
 ### Initialization
 ![](images/fp44.png){: width="50%"}
 * We will be using the servo.h libary for this code.
@@ -493,9 +499,9 @@ table.GeneratedTable thead {
 
 ### Adding the switch
 ![](images/fp66.png){: width="30%"}
-* After assembling the main housing, we can add in thr switch and hook it up to our breadboard.
-* I screwed the switch onto the hole. This is using the updated slide switch instead od toggle switch based on problems faced in the next sections.
-* I used jumper wires to hook up the 2/3 terminals of the switch to the breadboard. 1 to 5v abd 1 to pin2
+* After assembling the main housing, we can add in the switch and hook it up to our breadboard.
+* I screwed the switch onto the hole. This is using the updated slide switch instead of toggle switch based on problems faced in the next sections.
+* I used jumper wires to hook up the 2/3 terminals of the switch to the breadboard. 1 to 5v and 1 to pin2
 * It is better to solder then hooking the jumper wires like the way I did.
 
 ### Mounting the servos.
