@@ -376,6 +376,9 @@ table.GeneratedTable thead {
 3. 1 Rocker switch ( on/off)
 4. Resistor
 5. Jumper wires :)
+6. Mini Breadboard
+7. External Power Supply( If needed )
+8. Superglue/Woodglue
 
 ### Schematic and simulation
 ![](images/fp41.png){: width="50%"}
@@ -465,7 +468,7 @@ table.GeneratedTable thead {
 * Use this as an opportunity to tweak the code to position you servo and make it good!
 
 ### My code
-<a href="puvie-code.ino" download="code">
+<a href="puvie-code/puvie-code.ino" download="code">
   <img src="images/fp63.png" alt="model" width="200" height="200">
 </a>
 * This is my code that I have used for My Sisyphean Machine.
@@ -478,6 +481,8 @@ table.GeneratedTable thead {
 * Happy coding!
 
 ## Assembly
+
+### Main Housing
 ![](images/fp59.gif){: width=45%"}
 * This is the assembly video of all the laser cut components.
 * As you can see I used superglue as I didnt have woodglue for the wooden corners.
@@ -485,26 +490,50 @@ table.GeneratedTable thead {
 * I first installed the walls to the base and lastly the not movable lid. I let the lid be the last to put as I needed space to put the components in first.
 * It is sped up so you wont be wasting your time!
 
+### Adding the switch
+![](images/fp66.png){: width="25%"}
+* After assembling the main housing, we can add in thr switch and hook it up to our breadboard.
+* I screwed the switch onto the hole. This is using the updated slide switch instead od toggle switch based on problems faced in the next sections.
+* I used jumper wires to hook up the 2/3 terminals of the switch to the breadboard. 1 to 5v abd 1 to pin2
+* It is better to solder then hooking the jumper wires like the way I did.
+
+### Mounting the servos.
+![](images/fp68.png){: width="25%"}
+* I first superglued the door servo mount onto the far top right of the box( close to the pivot of the lid )
+* This was the best spot for my door servo to move and it was right for the 0 degree position of the servo.
+* I later proceeded to mount the main servo mount in the left of the box.
+* I couldn't mount on the right( logical as mounting on right will not intefere the door servo).
+* This was because the servo horn was already fixed onto the servo. Swapping to right would mean change of direcction which the practically is impossible once position is fixed.
+* Please give some space between the door servo and main servo or they might clash when they both return back( if your move does that )
+
+### UNO, breadboard & wiring
+![](images/fp70.jpeg){: width="25%"}
+* I lastly added the breadboard underneath the lid that holds the switch.
+* Since there was space constraint, the UNO had to placed vertically as if it was placed horizontally it hits the servo arm and prevents it from moving.
+* The wires were all scattered all over the place > so I used double-sided tape to position the wires to the wall.
+* However, the tape gave away. Thus i resorted to a **temporary** solution which was to use normal clear scotch-tape.
+* I first bundled the wires seperately using tape. Then, taped the wire bundled together to the wall.
+
 ## Problems faced
 
-### 1.Insufficient torque
+### 1.Not enough surface area
+* The servo arm was long enough but the feature that helps push the switch was extruded up.
+* Since it extruded up, it couldn't cover any area below which might also be a reason for not turning off the switch.
+* Even after changing to a slide switch from a toggle switch, the torque was sufficient but surface area covered wasn't enough.
+
+### 2.Insufficient torque
 ![](images/fp50.gif){: width="25%"}
 * Not enough torque was produced by the micro servo.
 * The arm length was a bit too long to produce enough moment and torque to turn off the switch.
 * Even with increased speed or change in micro servo, there was no difference.
 * Furthermore, because of this stoppage, it caused the servo to heat up as it coudln't handle it.
 
-### 2.Weak mount
+### 3.Weak mount
 ![](images/fp57.jpeg){: width="20%"}
 * The mount for the door servo was wobbly.
 * It didn't have enough support and it gave away at times.
 * Since it was weak, the servo tend to droop down affecting the position of the arm and the degree it turns. Which has to be changed via code.
 * A better way to design this would be to use 90 degrees down extrude or a Rib/web.
-
-### 3.Not enough surface area
-* The servo arm was long enough but the feature that helps push the switch was extruded up.
-* Since it extruded up, it couldn't cover any area below which might also be a reason for not turning off the switch.
-* Even after changing to a slide switch from a toggle switch, the torque was sufficient but surface area covered wasn't enough.
 
 ## Troubleshooting
 
@@ -529,7 +558,45 @@ table.GeneratedTable thead {
 * Thus when forced to remove the edges got roughed up. ( Please dont do this mistake)
 * Did not waste parts and time :)
 
+### 4. Arduino Uno support
+![](images/fp65.jpeg){: width="30%"}
+* The UNO is positioned upright due to space constraint. However, this results in a problem where this can potentially topple over.
+* If the UNO were to topple over, it can hit the arm and might affect the positioning of the servo arm.
+* Thus, a rectangular piece was extruded to act as a wall in between the UNO and the arm.
+* This furthermore acts as a support for the UNO and prevents it from toppling over.
+* Please note that this is a **temporary** solution. This was implemented due to the short time frame. I would advice to position the UNO laying flat or create a housing.
+
 ## Working model
 ![](images/fp60.gif){: width="20%"}
 
-## Video Submission
+## Improvements
+* Even though I am quite satisfied with the outcome of my project, there are still some improvements that could be made to the project:
+
+### 1. Arduino to be mounted on a more practical way.
+* The UNO has been supported using a "makeshift" wall that has been 3D printed.
+* This does not provide full support.
+* The uno should be layed down flat on the board with a proper mount.
+* I believe with a good UNO casing 3D CAD design, this problem can be fixed easily and will not cause much harm to the servo arms movement.
+
+### 2. Housing could be made much smaller. Alot of wasted space.
+![](images/fp67.jpeg){: width="30%"}
+* As you can see from the above picture, there is alot of space wasted.
+* I believe the box can be cut down by 1/3 in length.
+* This will not only help keep everything compact but also help with the torque issue with the servo arm( if u reduce the length to compensate )
+* There is no electronics or wirings that are fully stashed behind, so this wasted space is really of no use.
+* I would rather reduce the length or try to reposition the components to fill up the space.
+
+### 3. Servo arms with better support to servo horn.
+![](images/fp69.jpeg){: width="30%"}
+* Since I did this project whilst sustaining an injury, I couldn't find appropriate materials and screws for the horn.
+* The included screws could fit through the arm but couldn't be screwed onto the horn.
+* Since the servo horn could not be screwed to the servo, I had to superglue the servo arm to the horn.
+* This makes the arm feature loose in a sense.
+* I would prefer to use the appropriate screw to screw the arm and horn together securely.
+
+### 4. Soldering instead of jumper wires here and there.
+![](images/fp71.jpeg){: width="30%"}
+* I did not have a soldering iron at home nor the solder or the flux.
+* Since this project was done fully at home, I couldnt solder the wires to the switches.
+* This results in loose wiring and whenever the box moves a little bit too much, the wires can pop off.
+* I believe, soldering the wires to relevant components will make life much easier as it reduces the risk of wires popping out.
