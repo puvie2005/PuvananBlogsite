@@ -395,20 +395,6 @@ table.GeneratedTable thead {
 * There are different cases in this useless machine where it "behaves" differently.
 * You can download or tinker with the tinkercad file through [here](https://www.tinkercad.com/things/h3ESu6dquIS)
 
-### How it works in real life
-![](images/fp39.jpg){: width="50%"}
-* This is how it looks like in real life.
-* I decided to use a normal slide switch for testing purposes as it is small and serves the same purpose in the breadbaord.
-* All the 5v and ground for servos and switch have been connected to their respective rails in the front of the breadboard.
-* I used my own Arduino Uno as the given Uno is unrecognisable in the computer ports.
-
-![](images/fp43.gif){: width="25%"}
-* This is how it works in real life.
-* You can notice the different cases it goes through.
-* Whenever I slide the slide switch, the door servo is actuated then the arm servo is actuated.
-* Once the switch is closed, it returns back to its original position.
-* The different cases are seen where it after a certain number of times pressing the switch, it behaves fast and slow and etc.
-
 ## Coding
 * There are few different cases/moves that I have tweaked to my liking. This code is referenced from a fellow [instructable user](https://www.instructables.com/How-to-build-another-useless-machine-easy-to-make-/)
 * I used the code to figure out the exact positions of the servos when they are hiding and when they are in action.
@@ -456,6 +442,20 @@ table.GeneratedTable thead {
 * However, remember to decrease the increment. This makes thing move slow ( degrees increase slowly =  servo rotate slowly )
 * Tweak and test out and see what you like. Make sure the useless machine works the way you like it to
 
+### How it works in real life
+![](images/fp39.jpg){: width="40%"}
+* This is how it looks like in real life.
+* I decided to use a normal slide switch for testing purposes as it is small and serves the same purpose in the breadbaord.
+* All the 5v and ground for servos and switch have been connected to their respective rails in the front of the breadboard.
+* I used my own Arduino Uno as the given Uno is unrecognisable in the computer ports.
+
+![](images/fp43.gif){: width="25%"}
+* This is how it works in real life.
+* You can notice the different cases it goes through.
+* Whenever I slide the slide switch, the door servo is actuated then the arm servo is actuated.
+* Once the switch is closed, it returns back to its original position.
+* The different cases are seen where it after a certain number of times pressing the switch, it behaves fast and slow and etc.
+
 ### Working Code test
 ![](images/fp49.gif){: width="30%"}
 * This is the code test in real life without the switch.
@@ -468,7 +468,7 @@ table.GeneratedTable thead {
 <a href="puvie-code.ino" download="code">
   <img src="images/fp63.png" alt="model" width="200" height="200">
 </a>
-* This is my code that I have used for My Sysiphean Machine.
+* This is my code that I have used for My Sisyphean Machine.
 * I have explained the code above and refer to that if you have any problems!
 * Remember to tweak the servo positions to however you like.
 * The above code I have provided consists of 4 different moves.
@@ -488,7 +488,7 @@ table.GeneratedTable thead {
 ## Problems faced
 
 ### 1.Insufficient torque
-![](images/fp50.gif){: width="30%"}
+![](images/fp50.gif){: width="25%"}
 * Not enough torque was produced by the micro servo.
 * The arm length was a bit too long to produce enough moment and torque to turn off the switch.
 * Even with increased speed or change in micro servo, there was no difference.
@@ -530,6 +530,6 @@ table.GeneratedTable thead {
 * Did not waste parts and time :)
 
 ## Working model
-![](images/fp60.gif){: width="25%"}
+![](images/fp60.gif){: width="20%"}
 
 ## Video Submission
