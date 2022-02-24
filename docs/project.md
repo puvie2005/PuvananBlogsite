@@ -469,7 +469,7 @@ table.GeneratedTable thead {
 * Use this as an opportunity to tweak the code to position you servo and make it good!
 
 ### My code
-<a href="puvie-code/puvie-code.ino" download="code">
+<a href="puvie-code.zip" download="code-zip">
   <img src="images/fp63.png" alt="model" width="200" height="200">
 </a>
 * This is my code that I have used for My Sisyphean Machine. Click on the arduino image to download the file.
