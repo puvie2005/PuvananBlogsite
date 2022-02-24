@@ -7,7 +7,7 @@ layout: default
 After almost 2 terms of learning various skills ranging from lasercutting to embedded programming, we were tasked to take on a final project. In this final project, we are to integrate 3D printing, CAD software skills and lasercutting with electronics to create a simple project. This project requires a certain level of planning and fabrication too. We are only given 3 weeks thus I went on for a simple idea. Read to find out more about my final project!
 
 ## My Sisyphean Machine
-![](images/fp61.png){: width="60%"}
+![](images/fp61.png){: width="60%"} [![My Sisyphean Machine](https://res.cloudinary.com/marcomontalbano/image/upload/v1645734496/video_to_markdown/images/youtube--VjjjwvCtuzg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=VjjjwvCtuzg "My Sisyphean Machine")
 
 ### What does it mean?
 Well the word Sysiphean is just a synonym for the word useless.I chose this because I'm going to be making a useless machine! More importantly, it relates to a task not being completed.
