@@ -465,14 +465,12 @@ table.GeneratedTable thead {
 * Use this as an opportunity to tweak the code to position you servo and make it good!
 
 ### My code
-* Below is my code that I have used for My Sysiphean Machine.
-* I have explained the code above and refer to that if you have any problems!
-* Remember to tweak the servo positions to however you like.
-
 <a href="puvie-code.ino" download="code">
   <img src="images/fp63.png" alt="model" width="200" height="200">
 </a>
-
+* This is my code that I have used for My Sysiphean Machine.
+* I have explained the code above and refer to that if you have any problems!
+* Remember to tweak the servo positions to however you like.
 * The above code I have provided consists of 4 different moves.
 * You can add any move ontop of this code. Just include the name of this move as a void in the Initialisation.
 * Include it as a count in our if else statement as one of the moves to display when a certain count in reached.
