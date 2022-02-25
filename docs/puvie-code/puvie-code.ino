@@ -33,9 +33,9 @@ selectedMove = Testmove;
   if (selectedMove == 0) { switchoff(); }
   else if (selectedMove == 1) { switchoff(); }   
   else if (selectedMove == 2) { crazydoor(); }
-  else if (selectedMove == 3) { switchoff(); }
-  else if (selectedMove == 4) { crazyslow(); }
-  else if (selectedMove == 5) { matrix(); }
+  else if (selectedMove == 3) { crazyslow(); }
+  else if (selectedMove == 4) { matrix(); }
+  else if (selectedMove == 5) { presentation(); }
    
   if (Testmove == 0) {
   selectedMove++;         //swith to next move if not in test mode
@@ -46,9 +46,6 @@ selectedMove = Testmove;
 
 
 
-// Library of moves
-
-    // basic move 1
    void switchoff() 
    {    
 //Moving door
@@ -99,14 +96,14 @@ selectedMove = Testmove;
     delay(15);                       
     }
     delay(1000); 
-    for(pos = 80; pos >= 50; pos -= 4)  
+    for(pos = 80; pos >= 10; pos -= 4)  
     {                                   
     handServo.write(pos);               
     delay(15);                       
     }    
     
     //hiding hand
-    for(pos = 50; pos<130; pos+=4)      
+    for(pos = 10; pos<130; pos+=4)      
     {                                
     handServo.write(pos);               
     delay(15);                        
@@ -132,7 +129,13 @@ selectedMove = Testmove;
     }
    
     //Moving hand
-    for(pos = 130; pos >= 10; pos -=1)  
+    for(pos = 130; pos >= 50; pos -=1)  
+    {                                   
+    handServo.write(pos);               
+    delay(30);                       
+    }  
+    delay(1500);
+    for(pos = 50; pos >= 10; pos -=4)  
     {                                   
     handServo.write(pos);               
     delay(30);                       
@@ -168,20 +171,13 @@ selectedMove = Testmove;
     }
    
     //Moving hand
-    for(pos = 130; pos >= 90; pos -= 4)  
+    for(pos = 130; pos >= 45; pos -= 1)  
     {                                   
     handServo.write(pos);               
     delay(15);                       
-    }
-    
-    for(pos = 90; pos >= 50; pos -= 1)  
-    {                                   
-    handServo.write(pos);               
-    delay(30);                       
-    }  
-    delay(300);
-    
-    for(pos = 55; pos<130; pos+=4)      
+    } 
+    delay(2000);
+    for(pos = 45; pos<130; pos+=4)      
     {                                
     handServo.write(pos);               
     delay(10);                        
@@ -193,4 +189,86 @@ selectedMove = Testmove;
     doorServo.write(pos);              
     delay(25);                                      
     } 
+    delay(5000);
+    //Moving door
+    for(pos = 0; pos < 60; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+   
+    //Moving hand
+    for(pos = 130; pos >= 10; pos -= 4)  
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }  
+    
+    //hiding hand
+    for(pos = 10; pos<130; pos+=4)      
+    {                                
+    handServo.write(pos);               
+    delay(15);                        
+    } 
+      
+    //hiding door
+    for(pos = 60; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                      
+    } 
  }
+
+ void presentation() 
+   {    
+//Moving door
+    for(pos = 0; pos < 30; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+    delay(500);
+    for(pos = 30; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                      
+    } 
+    delay(500);
+    for(pos = 0; pos < 30; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+    delay(500);
+    for(pos = 30; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                      
+    } 
+    delay(2000);
+    for(pos = 0; pos < 60; pos += 3)   
+    {                                   
+    doorServo.write(pos);              
+    delay(15);                       
+    }
+    //Moving hand
+    for(pos = 130; pos >= 10; pos -= 4)  
+    {                                   
+    handServo.write(pos);               
+    delay(15);                       
+    }  
+    
+    //hiding hand
+    for(pos = 10; pos<130; pos+=4)      
+    {                                
+    handServo.write(pos);               
+    delay(15);                        
+    } 
+      
+    //hiding door
+    for(pos = 60; pos>=0; pos-=3)     
+    {                                
+    doorServo.write(pos);              
+    delay(25);                      
+    } 
+   }    

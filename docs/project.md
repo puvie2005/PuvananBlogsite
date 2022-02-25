@@ -10,7 +10,7 @@ After almost 2 terms of learning various skills ranging from lasercutting to emb
 ![](images/fp61.png){: width="60%"}
 
 ## More about it!
-[![My Sisyphean Machine](https://res.cloudinary.com/marcomontalbano/image/upload/v1645734496/video_to_markdown/images/youtube--VjjjwvCtuzg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=VjjjwvCtuzg "My Sisyphean Machine")
+![My Sisyphean Machine](https://res.cloudinary.com/marcomontalbano/image/upload/v1645796786/video_to_markdown/images/youtube--RdYttOksUaA-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=RdYttOksUaA "My Sisyphean Machine")
 
 ### What does it mean?
 Well the word Sisyphean is just a synonym for the word useless. I chose this because I'm going to be making a useless machine! More importantly, it relates to a task not being completed.
