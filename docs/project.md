@@ -490,7 +490,7 @@ table.GeneratedTable thead {
 * Include it as a count in our if else statement as one of the moves to display when a certain count in reached.
 * Create a void and include the move with the positions for your servo in your useless box.
 * Alternatively, you can access the code below!
-<iframe src=https://create.arduino.cc/editor/PUVANAN/a73e28ea-8197-467b-b8bf-bbfa21038fa4/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+<iframe src="https://create.arduino.cc/editor/PUVANAN/a73e28ea-8197-467b-b8bf-bbfa21038fa4/preview?embed" style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 ## Assembly
 
