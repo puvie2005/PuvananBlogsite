@@ -612,3 +612,8 @@ table.GeneratedTable thead {
 * Since this project was done fully at home, I couldnt solder the wires to the switches.
 * This results in loose wiring and whenever the box moves a little bit too much, the wires can pop off.
 * I believe, soldering the wires to relevant components will make life much easier as it reduces the risk of wires popping out.
+
+## Conclusion
+* I will recommend this project to anyone regardless of their skill level. This can be integrated in various ways. This project is simple but can push one to their creative limits! I have learnt a lot from this final project such as meeting goals prior to deadlines and Troubleshooting. It has refined my DIY skills and knowledge. By using laser cutting to cut your parts quickly, this project can be achieved within a short period of time. If you are a beginner like me, try this useless machine and have a go at its capabilities. You can do alot more than just different moves!
+
+![](images/Puvanan_project_ownership_card.png){: width="50%"}
